@@ -1,0 +1,68 @@
+<section class="benefits-section section-padding pt-0">
+  <div class="benefits-wrap">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="benefits-img wow fadeInLeftSlow" data-wow-duration="1400ms">
+            <img src="{{ section.settings.section_image |  image_url: width: 900 }}" alt="" width="" height="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="benefits-text wow fadeInRightSlow" data-wow-duration="1400ms">
+            <h2>{{ section.settings.title }}</h2>
+            <h4>{{ section.settings.subtitle }}</h4>
+            {{ section.settings.description }}
+            <a href="{{ section.settings.button_link }}" class="theme-btn">{{ section.settings.button_text }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "About Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Health Benefits of Massage Chairs"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Discover the Transformative Power of Daily Massage"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Massage chairs aren’t just about luxury—they’re about enhancing your health and well-being. Whether you’re looking to unwind after a long day or seeking relief from chronic discomfort, a massage chair can make a significant difference in your life. Here’s how: Stress and Anxiety Reduction: Regular massages help lower cortisol levels, reducing stress and promoting a sense of calm and relaxation. Pain Relief: Whether you suffer from back, neck, or muscle pain, targeted massage therapy can help alleviate tension and discomfort, giving you lasting relief. Improved Circulation: A massage stimulates blood flow throughout your body, which can aid in faster recovery, improved energy levels, and overall vitality. Better Sleep: Relaxation from massage can help regulate your sleep patterns, leading to deeper, more restorative sleep. Enhanced Flexibility and Mobility: Regular use can help loosen tight muscles and improve joint mobility, making everyday activities easier and more comfortable. Our massage chairs offer these benefits right in the comfort of your home. Experience the difference with a chair that’s designed to not only relax but also rejuvenate your body and mind.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Read our story"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "section_image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "About Section"
+    }
+  ]
+}
+{% endschema %}
