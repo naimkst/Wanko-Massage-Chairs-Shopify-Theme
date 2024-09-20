@@ -1,0 +1,87 @@
+<section class="features-section section-padding pt-0">
+  <div class="features-wrap">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="features-left wow fadeInLeftSlow" data-wow-duration="1400ms">
+            <div class="section-title">
+              <h2>{{ section.settings.section_title }}</h2>
+              <p>{{ section.settings.section_subtitle }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="features-wrap">
+            <div class="row">
+              {% for block in section.blocks %}
+                <div class="col-lg-6 col-sm-6 col-12">
+                  <div class="features-item wow fadeInUp" data-wow-duration="1000ms">
+                    {% comment %} <i class="fa fa-credit-card-alt" aria-hidden="true"></i> {% endcomment %}
+                    <img src="{{ block.settings.block_image | image_url: width: 100 }}" alt="" width="" height="">
+                    <h3>{{ block.settings.title }}</h3>
+                    <p>{{ block.settings.description }}</p>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Feature Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Your Satisfaction Is Our Priority"
+    },
+    {
+      "type": "text",
+      "id": "section_subtitle",
+      "label": "Section Subtitle",
+      "default": "Shopping with confidence"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Slider",
+      "type": "block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "block_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Secure Payments"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "Our store uses SSL encryption to ensure your payment information is always secure"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature Section",
+      "blocks": [
+        {
+          "type": "block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
