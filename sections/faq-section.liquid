@@ -1,0 +1,418 @@
+<section class="faq-area section-padding">
+  <div class="container">
+    <div class="faq-wrap">
+      {% for block in section.blocks %}
+        {% section 'contact-info' %}
+        <div class="faq-item">
+          <h2>General Questions</h2>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  What products do you offer?
+                </button>
+              </h3>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    We offer a range of massage chairs and other massage devices designed to provide relaxation and
+                    wellness. Our products include full-body massage chairs, portable massagers, foot massagers, and
+                    more.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  How do I choose the right massage chair for me?
+                </button>
+              </h3>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Consider your specific needs, such as the type of massage you prefer, the features you want (e.g.,
+                    heat therapy, zero gravity, Thai stretching), and your budget. Our product descriptions and customer
+                    reviews can help guide your decision. Feel free to contact our customer service team for
+                    personalized recommendations.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Are your massage chairs easy to assemble?
+                </button>
+              </h3>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p>
+                    Most of our massage chairs come pre-assembled, while some models may require minimal assembly. We
+                    also offer White Glove Delivery service for an additional fee, which includes delivery, assembly,
+                    and removal of packaging materials.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+      <div class="faq-item">
+        <h2>Shipping and Delivery</h2>
+
+        <div class="accordion" id="accordionExample2">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne2">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne2"
+                aria-expanded="true"
+                aria-controls="collapseOne2"
+              >
+                How much does shipping cost?
+              </button>
+            </h3>
+            <div
+              id="collapseOne2"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne2"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <p>
+                  We offer free standard shipping on all massage chair orders within the continental United States.
+                  Expedited shipping and White Glove Delivery services are available for an additional fee.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo2">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo2"
+                aria-expanded="false"
+                aria-controls="collapseTwo2"
+              >
+                How long will it take to receive my order?
+              </button>
+            </h3>
+            <div
+              id="collapseTwo2"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo2"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <p>
+                  Standard shipping typically takes 5-10 business days. Expedited shipping times vary based on location
+                  and availability. You will receive a tracking number once your order has shipped.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThree2">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree2"
+                aria-expanded="false"
+                aria-controls="collapseThree2"
+              >
+                Do you ship internationally?
+              </button>
+            </h3>
+            <div
+              id="collapseThree2"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree2"
+              data-bs-parent="#accordionExample2"
+            >
+              <div class="accordion-body">
+                <p>
+                  Currently, we only ship to addresses within the continental United States. We do not ship to Alaska,
+                  Hawaii, U.S. territories, or internationally at this time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h2>Returns and Warranty</h2>
+
+        <div class="accordion" id="accordionExample3">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne3">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne3"
+                aria-expanded="true"
+                aria-controls="collapseOne3"
+              >
+                What is your return policy?
+              </button>
+            </h3>
+            <div
+              id="collapseOne3"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne3"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <p>
+                  We offer a 30-day return window for unused and undamaged products in their original packaging. A 15%
+                  restocking fee applies to all returns. Please refer to our Return Policy page for more details.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo3">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo3"
+                aria-expanded="false"
+                aria-controls="collapseTwo3"
+              >
+                How do I register my product for warranty coverage?
+              </button>
+            </h3>
+            <div
+              id="collapseTwo3"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo3"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <p>
+                  You can register your product by filling out the Warranty Registration form on our website. Be sure to
+                  provide your purchase information and proof of purchase.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThree3">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree3"
+                aria-expanded="false"
+                aria-controls="collapseThree3"
+              >
+                What does the warranty cover?
+              </button>
+            </h3>
+            <div
+              id="collapseThree3"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree3"
+              data-bs-parent="#accordionExample3"
+            >
+              <div class="accordion-body">
+                <p>
+                  Our standard warranty includes unlimited technical support, parts coverage for 5 years, and labor
+                  coverage for the first year. Please refer to our Warranty Policy page for detailed information on
+                  coverage, limitations, and exclusions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h2>Product Use and Maintenance</h2>
+
+        <div class="accordion" id="accordionExample4">
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne4">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne4"
+                aria-expanded="true"
+                aria-controls="collapseOne4"
+              >
+                How do I clean and maintain my massage chair?
+              </button>
+            </h3>
+            <div
+              id="collapseOne4"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne4"
+              data-bs-parent="#accordionExample4"
+            >
+              <div class="accordion-body">
+                <p>
+                  To clean your massage chair, use a damp cloth with mild soap to wipe down the surface. Avoid using
+                  harsh chemicals or abrasive materials. Refer to your user manual for specific maintenance
+                  instructions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo4">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo4"
+                aria-expanded="false"
+                aria-controls="collapseTwo4"
+              >
+                Can I use the massage chair if I have a medical condition?
+              </button>
+            </h3>
+            <div
+              id="collapseTwo4"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo4"
+              data-bs-parent="#accordionExample4"
+            >
+              <div class="accordion-body">
+                <p>
+                  If you have any medical conditions or concerns, we recommend consulting with your healthcare provider
+                  before using a massage chair or any other massage device. Certain conditions may require special
+                  consideration.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThree4">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree4"
+                aria-expanded="false"
+                aria-controls="collapseThree4"
+              >
+                What should I do if my massage chair stops working?
+              </button>
+            </h3>
+            <div
+              id="collapseThree4"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree4"
+              data-bs-parent="#accordionExample4"
+            >
+              <div class="accordion-body">
+                <p>
+                  First, refer to the troubleshooting section of your user manual. If the issue persists, contact our
+                  customer service team for assistance. If your product is still under warranty, we will help arrange
+                  for repairs or replacements as needed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "FAQ Section",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Slider",
+      "type": "faq",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "What products do you offer?"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>We offer a range of massage chairs and other massage devices designed to provide relaxation and wellness. Our products include full-body massage chairs, portable massagers, foot massagers, and more.</p>"
+        }
+      ]
+    },
+    {
+      "name": "heading",
+      "type": "title",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "General Questions"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ Section",
+      "blocks": [
+        {
+          "type": "faq"
+        },
+        {
+          "type": "title"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
