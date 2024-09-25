@@ -3206,7 +3206,7 @@ img {
   line-height: 1.5em;
   text-transform: capitalize;
 }
-.accordion-section .accordion-item button i {
+.accordion-section .accordion-item button img {
   font-size: 20px;
   margin-right: 10px;
 }

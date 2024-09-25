@@ -106,120 +106,35 @@
 
           <div class="accordion-section">
             <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h3 class="accordion-header" id="headingOne">
-                  <button
-                    class="accordion-button"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseOne"
-                    aria-expanded="true"
-                    aria-controls="collapseOne"
-                  >
-                    <i class="ti-clipboard"></i> Product Details
-                  </button>
-                </h3>
-                <div
-                  id="collapseOne"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body">
-                    <ul>
-                      <li>
-                        SL Track Massage Chair full body: Indulge in luxury with our SL Track Massage Chair, featuring a
-                        human-like Vario Motion Mechanism and a 57.08 inches SL Long Track Massage from Neck to Buttock.
-                        Soothing Waist Heating therapy ensures ultimate relaxation. Find your perfect fit with
-                        Adjustable Foot & Calf settings. Enjoy comprehensive Airbag Massage targeting Shoulder, Arm,
-                        Buttocks, Calf, and Foot, providing complete relaxation. (Simple to assemble and easy to
-                        operate)
-                      </li>
-                      <li>
-                        5 unique deep Massage with advanced Technology: Discover unparalleled relaxation with our
-                        massage chair's advanced features. Enjoy 5 unique deep Massage Techniques, 6 Automatic massage
-                        programs, Tri-Action Sole Roller Massage, and precise adjustments with a 7" Wired Touch-Screen
-                        Control. Customize your experience further with 3 speed Airbag intensity adjustment and 3
-                        Massage intensity adjustment settings.
-                      </li>
-                      <li>
-                        Space-saving design: Discover the epitome of space-saving luxury in our zero gravity massage
-                        chair, where innovation meets relaxation. With a leg retractable feature adjusting up to 5.9
-                        inches to accommodate different heights, coupled with the convenience of One Touch Zero Gravity
-                        and Wall Hugging design, every inch of your space is maximized for ultimate comfort.
-                      </li>
-                      <li>
-                        Smart AI Features for Personalized Massage: Indulge in personalized relaxation with our shiatsu
-                        massage chair's intelligent features. Utilize the smart function for customized massages, while
-                        precise body scanning ensures optimal comfort. Conveniently control your massage experience with
-                        the armrest's integrated control panel, making relaxation effortless.
-                      </li>
-                      <li>
-                        Eco-Friendly Features of Massage Chair: Immerse yourself in comfort and sustainability with our
-                        full body massage chair. Featuring an LED light design, durable ABS materials, and eco-friendly
-                        PU leather upholstery, enjoy in guilt-free relaxation.
-                      </li>
-                      <li>
-                        Features of the Medical Silicone Massage Chair: The massage chair features medical silicone
-                        massage rollers and includes two sets of foot massage rollers. Touch screen controller with
-                        additional features like a quick control panel, USB charging, and wireless charging capability.
-                        Offering it allows for personalized massage experiences. The chair provides airbag massage with
-                        adjustable intensity levels for both massage and airbags. It includes a retractable leg
-                        extension of 5.9 inches, and zero gravity positions adjustable up to 180-190 degrees for optimal
-                        comfort. Features AI English voice functionality, and operates on 110V with 100W power.
-                      </li>
-                      <li>Available in two colors: Black / White</li>
-                    </ul>
+              {% for block in section.blocks %}
+                {% if block.type == 'info' %}
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="heading{{forloop.index}}">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse{{forloop.index}}"
+                        aria-expanded="true"
+                        aria-controls="collapse{{forloop.index}}"
+                      >
+                        <img src="{{ block.settings.icon | image_url: width: 50  }}" width="" height="" alt="">
+                        {{ block.settings.title }}
+                      </button>
+                    </h3>
+                    <div
+                      id="collapse{{forloop.index}}"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="heading{{forloop.index}}"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        {{ block.settings.description }}
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h3 class="accordion-header" id="headingTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="collapseTwo"
-                  >
-                    <i class="fa fa-truck" aria-hidden="true"></i> Shipping & Return
-                  </button>
-                </h3>
-                <div
-                  id="collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="headingTwo"
-                  data-bs-parent="#accordionExample"
-                >
-                  <div class="accordion-body style-2">
-                    <ul>
-                      <li>
-                        Shipping:
-                        <p>
-                          Orders are processed within 1-3 business days. Once your order is processed, you will receive
-                          a confirmation email with tracking information. Full
-                          <a
-                            href="shipping-policy.html"
-                            >Shipping Policy</a
-                          >
-                        </p>
-                      </li>
-                      <li>
-                        Return:
-                        <p>
-                          You may return your massage chair within 30 days of the delivery date for a refund or
-                          exchange. Full
-                          <a
-                            href="return-policy.html"
-                            >Return Policy</a
-                          >
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+                {% endif %}
+              {% endfor %}
             </div>
           </div>
         </div>
@@ -289,3 +204,45 @@
     fetchProductDetails(productHandle);
   });
 </script>
+
+{% schema %}
+{
+  "name": "Single Product",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Info",
+      "type": "info",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Product Details",
+          "default": "Product Details"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi accusamus perferendis ab quia velit dolor quibusdam quas repellendus veritatis asperiores!</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Single Product",
+      "blocks": [
+        {
+          "type": "info"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
