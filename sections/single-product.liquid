@@ -1,6 +1,9 @@
 <script type="application/json">
   window.product = {{ product | json }} || {}{{ product.variants | json }}
 </script>
+<script type="application/json">
+  {{ product.variants | json }}
+</script>
 
 <section class="shop-single-section product-details section-padding">
   <div class="container">
@@ -42,25 +45,54 @@
           <div class="title">
             <h2>{{ product.title }}</h2>
           </div>
-          <h5>
+          <h5 id="price">
             {{ cart.currency.symbol -}}
             {{- product.price | money_without_currency }}
           </h5>
           {% unless product.has_only_default_variant %}
             <div class="form-group">
-              <select name="#" id="#">
+              <select id="variant-selector">
                 {% for variant in product.variants %}
-                  <option value="{{ variant.id }}">{{ variant.title }}</option>
+                  <option data-variant-id="{{ variant.id }}" value="{{ variant.id }}">{{ variant.title }}</option>
                 {% endfor %}
               </select>
             </div>
           {% endunless %}
+
           <div class="pro-single-btn">
             <div class="quantity cart-plus-minus">
               <input type="text" value="1">
               <div class="dec qtybutton"></div>
               <div class="inc qtybutton"></div>
             </div>
+
+            <input
+              type="hidden"
+              name="id"
+              id="variantId"
+              value="{{ product.variants.first.id }}"
+            >
+            <input
+              type="hidden"
+              name="quantity"
+              id="quantity"
+              value="1"
+              min="1"
+            >
+            <input
+              type="hidden"
+              name="handle"
+              id="handle"
+              value="{{ product.handle }}"
+            >
+
+            <input
+              type="hidden"
+              name="currency"
+              id="currency"
+              value="{{cart.currency.symbol}}"
+            >
+
             <div class="buy-btn">
               <a href="#" class="theme-btn"
                 >Add To Cart
@@ -195,3 +227,65 @@
     </div>
   </div>
 </section>
+
+<script>
+  function formatPrice(price) {
+    return new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+      minimumFractionDigits: 2,
+    }).format(price);
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    var variantSelector = document.getElementById('variant-selector');
+    var productHandle = $('#handle').val();
+    var currency = $('#currency').val();
+
+    // Fetch product details
+    function fetchProductDetails(handle) {
+      fetch(`/products/${handle}.js`)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.json();
+        })
+        .then((data) => {
+          console.log('Product Data:', data);
+          updateVariantPrices(data);
+        })
+        .catch((error) => {
+          console.error('There was a problem with the fetch operation:', error);
+        });
+    }
+
+    // Update variant prices based on the selected variant
+    function updateVariantPrices(product) {
+      variantSelector.addEventListener('change', function () {
+        var variantId = this.options[this.selectedIndex].getAttribute('data-variant-id');
+        $('#variantId').val(variantId);
+        var newUrl = new URL(window.location.href);
+        newUrl.searchParams.set('variant', variantId);
+        window.history.replaceState({}, '', newUrl);
+
+        // Find the selected variant
+        var selectedVariant = product.variants.find((variant) => variant.id === parseInt(variantId));
+
+        if (selectedVariant) {
+          console.log('Selected Variant Price:', selectedVariant.price / 100);
+          let price = (selectedVariant.price / 100).toFixed(2);
+          $('h5#price').text(currency + price);
+
+          // Update the price on the UI
+          var priceElement = document.getElementById('variant-price');
+          if (priceElement) {
+            priceElement.textContent = `Price: ${currency}${price}`;
+          }
+        }
+      });
+    }
+
+    // Initialize product details fetch
+    fetchProductDetails(productHandle);
+  });
+</script>
