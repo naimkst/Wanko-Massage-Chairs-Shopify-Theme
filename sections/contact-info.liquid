@@ -1,0 +1,73 @@
+<section class="contact-info-area section-padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section-title">
+          <h2>{{ section.settings.section_title }}</h2>
+          <p>{{ section.settings.section_subtitle }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact-info-wrap">
+      <div class="row">
+        {% for block in section.blocks %}
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="contact-info-item wow fadeInUp" data-wow-duration="1200ms">
+              <img src="{{ block.settings.block_image | image_url: width: 80 }}" alt="" width="40" height="40">
+              <h4>{{ block.settings.title }}</h4>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Contact Info Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Contact Us"
+    },
+    {
+      "type": "text",
+      "id": "section_subtitle",
+      "label": "Section Subtitle",
+      "default": "Join us on our journey to make holistic wellness accessible for everyone, one massage chair at a time."
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Slider",
+      "type": "block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "block_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "cs@wankomassagechairs.com"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact Info Section",
+      "blocks": [
+        {
+          "type": "block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
