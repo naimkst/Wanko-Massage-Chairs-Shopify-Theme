@@ -1,0 +1,85 @@
+<section class="about-area section-padding">
+  <div class="container">
+    <div class="about-wrap">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="about-left wow fadeInLeftSlow" data-wow-duration="1400ms">
+            <img src="{{ section.settings.about_image | image_url: width: 900 }}" alt="" width="" height="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="about-text wow fadeInRightSlow" data-wow-duration="1400ms">
+            <h2>{{ section.settings.title }}</h2>
+            <p>
+              {{ section.settings.description }}
+            </p>
+            <div class="about-inner-img">
+              {% for block in section.blocks %}
+                <div class="ab-image-item">
+                  <img src="{{block.settings.item_image | image_url: width: 600 }}" alt="" width="" height="">
+                  <div class="b-text">
+                    <span>{{ block.settings.item_title }}</span>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "About Page Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "About Us"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Welcome to Wanko Massage Chairs, where we blend luxury, affordability, and essential protection to enhance your quality of life. Our mission is to provide unparalleled relaxation and wellness with our sleek, modern massage chairs. At Wanko Massage Chairs, we believe that everyone deserves to experience the benefits of a high-quality massage in the comfort of their own home."
+    },
+    {
+      "type": "image_picker",
+      "id": "about_image",
+      "label": "Left Image"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Images",
+      "type": "image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "item_image",
+          "label": "Item Image"
+        },
+        {
+          "type": "text",
+          "id": "item_title",
+          "label": "Item Title",
+          "default": "Remote Control"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "About Page Section",
+      "blocks": [
+        {
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

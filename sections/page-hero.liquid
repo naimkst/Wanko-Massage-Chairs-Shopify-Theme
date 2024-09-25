@@ -1,0 +1,33 @@
+<section
+  class="page-title"
+  style="background: url({{ section.settings.page_image |  image_url: width: 1920 }}) no-repeat center center;"
+>
+  <div class="container">
+    <div class="page-title-content">
+      <h2>{{ section.settings.title }}</h2>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Page Hero Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "About Us"
+    },
+    {
+      "type": "image_picker",
+      "id": "page_image",
+      "label": "Background Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Page Hero Section"
+    }
+  ]
+}
+{% endschema %}
