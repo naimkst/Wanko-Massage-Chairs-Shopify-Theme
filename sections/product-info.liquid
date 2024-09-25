@@ -1,0 +1,61 @@
+<section class="features-section style-2 section-padding">
+  <div class="features-wrap">
+    <div class="container">
+      <div class="features-wrap">
+        <div class="row">
+          {% for block in section.blocks %}
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="features-item wow fadeInUp" data-wow-duration="1000ms">
+                <img src="{{ block.settings.block_image | image_url: width: 100 }}" alt="" width="" height="">
+                <h3>{{ block.settings.title }}</h3>
+                <p>{{ block.settings.description }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product Info Section",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Item",
+      "type": "block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "block_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Secure Shopping"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "Our store uses SSL encryption to ensure your payment information is always secure"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Info Section",
+      "blocks": [
+        {
+          "type": "block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
