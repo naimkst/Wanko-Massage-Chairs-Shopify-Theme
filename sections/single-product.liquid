@@ -30,7 +30,14 @@
       <div class="col col-lg-6 col-12">
         <div class="product-details">
           <div class="details-top">
-            <span><i class="fa fa-trophy" aria-hidden="true"></i>Best Seller</span>
+            {% assign product_collections = product.collections %}
+            {% if product_collections.size > 0 %}
+              <ul>
+                {% for collection in product_collections limit: 1 %}
+                  <span><i class="fa fa-trophy" aria-hidden="true"></i>{{ collection.title }}</span>
+                {% endfor %}
+              </ul>
+            {% endif %}
           </div>
           <div class="title">
             <h2>{{ product.title }}</h2>
@@ -39,12 +46,15 @@
             {{ cart.currency.symbol -}}
             {{- product.price | money_without_currency }}
           </h5>
-          <div class="form-group">
-            <select name="#" id="#">
-              <option value="">Black</option>
-              <option value="">White</option>
-            </select>
-          </div>
+          {% unless product.has_only_default_variant %}
+            <div class="form-group">
+              <select name="#" id="#">
+                {% for variant in product.variants %}
+                  <option value="{{ variant.id }}">{{ variant.title }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          {% endunless %}
           <div class="pro-single-btn">
             <div class="quantity cart-plus-minus">
               <input type="text" value="1">
