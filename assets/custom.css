@@ -1,0 +1,6 @@
+.faq-area .faq-wrap .faq-item h2 {
+  margin-top: 50px;
+}
+.faq-area .faq-wrap .faq-item h2:first-child {
+  margin-top: 0px;
+}
