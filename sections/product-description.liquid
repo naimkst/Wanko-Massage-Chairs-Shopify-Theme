@@ -1,0 +1,73 @@
+<section class="details-section section-padding">
+  <div class="details-wrap">
+    <div class="container">
+      <div class="details-des">
+        <h2>{{ section.settings.details_title }}</h2>
+        {{ product.description }}
+      </div>
+      <div class="details-table-wrap">
+        <h2>{{ section.settings.specifications_title }}</h2>
+        <div class="details-table">
+          <ul>
+            <li><strong>Name</strong><b>Description</b></li>
+            {% for block in section.blocks %}
+              <li>
+                <strong>{{ block.settings.title }}</strong><span>{{ block.settings.description }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product Description",
+  "settings": [
+    {
+      "type": "text",
+      "id": "details_title",
+      "label": "Product Details Title",
+      "default": "Description"
+    },
+    {
+      "type": "text",
+      "id": "specifications_title",
+      "label": "Specifications Title",
+      "default": "Specifications"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Specifications",
+      "type": "info",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Model"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "T710"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Description",
+      "blocks": [
+        {
+          "type": "info"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
