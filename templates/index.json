@@ -27,10 +27,21 @@
             "hero_button_text": "Shop Now",
             "hero_button_Link": "shopify://products/wanko-sl-track-zero-gravity-full-body-recliner-massage-chair-black"
           }
+        },
+        "block_TNCqBr": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/2_fd520eda-6ec6-4736-9a7a-0978092a9438.jpg",
+            "hero_title": "Labor Day Special: Discover Our Sleek Massage Chairs",
+            "hero_description": "Affordable luxury and ultimate comfort. Enjoy 5-year protection and launch deals this Labor Day!",
+            "hero_button_text": "Explore Our Collection",
+            "hero_button_Link": "shopify://collections/massage-chairs"
+          }
         }
       },
       "block_order": [
-        "block_Gj8JbT"
+        "block_Gj8JbT",
+        "block_TNCqBr"
       ],
       "settings": {
       }
