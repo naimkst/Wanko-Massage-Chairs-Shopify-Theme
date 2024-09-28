@@ -15,7 +15,14 @@
                 <h2>
                   <a href="{{ product.url }}">{{ product.title }}</a>
                 </h2>
-                <a href="#" class="theme-btn">Add to cart</a>
+
+                <a
+                  href="#"
+                  class="theme-btn sliderAddToCart"
+                  data-itemid="{{ product.variants.first.id }}"
+                  data-currency="{{ cart.currency.symbol -}}"
+                  >Add to cart</a
+                >
               </div>
             </div>
           </div>

@@ -13,10 +13,13 @@
           </div>
           <div class="col-lg-6">
             <div class="newslatter-right">
-              <form action="#">
-                <input type="text" placeholder="Email address">
+              {% form 'customer' %}
+                <input type="text" placeholder="Email address" name="contact[email]">
                 <button>Submit</button>
-              </form>
+                {% if form.posted_successfully? %}
+                  <p class="text-center mt-2">Thank you for signing up!</p>
+                {% endif %}
+              {%- endform -%}
             </div>
           </div>
         </div>

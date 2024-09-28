@@ -406,9 +406,6 @@
 $('.addToCart').on('click', function (e) {
   e.preventDefault();
 
-  $('.addToCart').css('display', 'none');
-  $('.loadingBtn').css('display', 'block');
-
   var productId = $('#variantId').val();
   var quantity = $('#quantity').val();
 
@@ -446,9 +443,7 @@ $('.addToCart').on('click', function (e) {
 $('.sliderAddToCart').on('click', function (e) {
   e.preventDefault();
 
-  $('.cartBtn').css('display', 'none');
-  $('.loadingBtn').css('display', 'block');
-
+  $(this).text('Adding...');
   var productId = $(this).attr('data-itemid');
   console.log('Slider Add to Cart clicked', productId);
   $.ajax({
@@ -472,13 +467,12 @@ $('.sliderAddToCart').on('click', function (e) {
           updateCartDisplay(cartData);
         });
       $('.mini-cart-content').addClass('mini-cart-content-toggle');
-
-      $('.cartBtn').css('display', 'block');
-      $('.loadingBtn').css('display', 'none');
-    },
+      $(this).text('Add to cart');
+    }.bind(this),
     error: function (error) {
       console.error('Error adding item to cart:', error);
-    },
+      $(this).text('Add to cart');
+    }.bind(this),
   });
 });
 
@@ -604,7 +598,7 @@ function createCartItemHTML(item, index) {
             <li>${item.variant_title ? item.variant_title : 'Black'}</li>
           </ul>
         </div>
-        <span class="price">${(item.price / 100).toFixed(2)}</span>
+        <span class="price">${'$' + (item.price / 100).toFixed(2)}</span>
       </div>
       <div class="pro-single-btn">
         <div class="quantity cart-plus-minus">
