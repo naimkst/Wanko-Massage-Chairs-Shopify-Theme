@@ -63,11 +63,30 @@
         "title": "Our Massage Chair Collection",
         "product_collection": "massage-chairs"
       }
+    },
+    "warranty_section_NVttFH": {
+      "type": "warranty-section",
+      "blocks": {
+        "block_PRtcre": {
+          "type": "block",
+          "settings": {
+            "title": "Sleek, Modern Design",
+            "description": "Discover the perfect blend of style and functionality with our sleek, modern massage chairs. Designed with contemporary aesthetics in mind, each chair is crafted to complement any home or office space. The ergonomic contours not only provide ultimate comfort but also add a touch of sophistication to your environment. Elevate your space with a chair that offers more than just relaxation its a statement piece that reflects your refined taste."
+          }
+        }
+      },
+      "block_order": [
+        "block_PRtcre"
+      ],
+      "settings": {
+        "section_title": "Affordable Luxury with our Dependable 5-Year Warranty"
+      }
     }
   },
   "order": [
     "main",
     "hero_section_dHipPk",
-    "product_selling_zLbQpg"
+    "product_selling_zLbQpg",
+    "warranty_section_NVttFH"
   ]
 }
