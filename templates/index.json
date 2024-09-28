@@ -56,10 +56,18 @@
       ],
       "settings": {
       }
+    },
+    "product_selling_zLbQpg": {
+      "type": "product-selling",
+      "settings": {
+        "title": "Our Massage Chair Collection",
+        "product_collection": "massage-chairs"
+      }
     }
   },
   "order": [
     "main",
-    "hero_section_dHipPk"
+    "hero_section_dHipPk",
+    "product_selling_zLbQpg"
   ]
 }
