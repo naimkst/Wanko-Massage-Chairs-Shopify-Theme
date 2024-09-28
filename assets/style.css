@@ -2944,8 +2944,11 @@ img {
   }
 }
 .features-section .features-item img {
-  width: 34px;
-  margin-bottom: 32px;
+  width: 60px;
+  margin-bottom: 15px;
+}
+.features-section .features-item p {
+  font-size: 17px;
 }
 .features-section .features-item h3 {
   font-size: 24px;
