@@ -111,6 +111,53 @@
         "button_link": "shopify://products/wanko-sl-track-zero-gravity-full-body-recliner-massage-chair-cream",
         "section_image": "shopify://shop_images/10_185c2d12-f1b9-4a3b-9de4-813ca331474d.jpg"
       }
+    },
+    "feature_section_rQ7r6D": {
+      "type": "feature-section",
+      "blocks": {
+        "block_P4AUi3": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/credit-card_1.svg",
+            "title": "Secure Payments",
+            "description": "Our store uses SSL encryption to ensure your payment information is always secure"
+          }
+        },
+        "block_PdLCMC": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/truck_1.svg",
+            "title": "Free Shipping",
+            "description": "Free shipping on all orders, get your purchase delivered quickly and hassle-free"
+          }
+        },
+        "block_AY7nf9": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/cash.svg",
+            "title": "Money Back",
+            "description": "We stand behind the quality of our products and offer a 30-day money-back guarantee"
+          }
+        },
+        "block_A3cfad": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/heart-handshake.svg",
+            "title": "Customer Support",
+            "description": "Our support team is available 24/7 to assist you with any questions or concerns you have"
+          }
+        }
+      },
+      "block_order": [
+        "block_P4AUi3",
+        "block_PdLCMC",
+        "block_AY7nf9",
+        "block_A3cfad"
+      ],
+      "settings": {
+        "section_title": "Your Satisfaction Is Our Priority",
+        "section_subtitle": "Shopping with confidence"
+      }
     }
   },
   "order": [
@@ -118,6 +165,7 @@
     "hero_section_dHipPk",
     "product_selling_zLbQpg",
     "warranty_section_NVttFH",
-    "about_section_VgzTGy"
+    "about_section_VgzTGy",
+    "feature_section_rQ7r6D"
   ]
 }
