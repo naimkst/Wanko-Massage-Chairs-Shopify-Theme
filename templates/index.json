@@ -1,8 +1,42 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
-      "type": "404"
+      "type": "404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "hero_section_dHipPk": {
+      "type": "hero-section",
+      "blocks": {
+        "block_Gj8JbT": {
+          "type": "block",
+          "settings": {
+            "hero_title": "Labor Day Sale: Launching Relaxation Like Never Before!",
+            "hero_description": "Celebrate with sleek, affordable massage chairs and a 5-year warranty. Enjoy exclusive Labor Day discounts!",
+            "hero_button_text": "Shop Now",
+            "hero_button_Link": "shopify://products/wanko-sl-track-zero-gravity-full-body-recliner-massage-chair-black"
+          }
+        }
+      },
+      "block_order": [
+        "block_Gj8JbT"
+      ],
+      "settings": {
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main",
+    "hero_section_dHipPk"
+  ]
 }
