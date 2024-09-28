@@ -1,8 +1,171 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
-      "type": "404"
+      "type": "404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "hero_section_dHipPk": {
+      "type": "hero-section",
+      "blocks": {
+        "block_Gj8JbT": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/2jpg_6994a14a-411e-4936-96ef-cfa16f7165c2.jpg",
+            "hero_title": "Labor Day Sale: Launching Relaxation Like Never Before!",
+            "hero_description": "Celebrate with sleek, affordable massage chairs and a 5-year warranty. Enjoy exclusive Labor Day discounts!",
+            "hero_button_text": "Shop Now",
+            "hero_button_Link": "shopify://products/wanko-sl-track-zero-gravity-full-body-recliner-massage-chair-black"
+          }
+        },
+        "block_TNCqBr": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/2_fd520eda-6ec6-4736-9a7a-0978092a9438.jpg",
+            "hero_title": "Labor Day Special: Discover Our Sleek Massage Chairs",
+            "hero_description": "Affordable luxury and ultimate comfort. Enjoy 5-year protection and launch deals this Labor Day!",
+            "hero_button_text": "Explore Our Collection",
+            "hero_button_Link": "shopify://collections/massage-chairs"
+          }
+        },
+        "block_ThL8U6": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/1_1ae3bdf8-a272-43d2-8a5b-fac6cdca6e78.jpg",
+            "hero_title": "Launching Comfort This Labor Day!",
+            "hero_description": "Elevate your relaxation with sleek design, affordable prices, and a 5-year warranty. Don’t miss our Labor Day offers!",
+            "hero_button_text": "Get Yours Today",
+            "hero_button_Link": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_Gj8JbT",
+        "block_TNCqBr",
+        "block_ThL8U6"
+      ],
+      "settings": {
+      }
+    },
+    "product_selling_zLbQpg": {
+      "type": "product-selling",
+      "settings": {
+        "title": "Our Massage Chair Collection",
+        "product_collection": "massage-chairs"
+      }
+    },
+    "warranty_section_NVttFH": {
+      "type": "warranty-section",
+      "blocks": {
+        "block_PRtcre": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/Massage_Chair_Service_section.jpg",
+            "title": "Sleek, Modern Design",
+            "description": "Discover the perfect blend of style and functionality with our sleek, modern massage chairs. Designed with contemporary aesthetics in mind, each chair is crafted to complement any home or office space. The ergonomic contours not only provide ultimate comfort but also add a touch of sophistication to your environment. Elevate your space with a chair that offers more than just relaxation its a statement piece that reflects your refined taste."
+          }
+        },
+        "block_rU3FNj": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/5_cd6cac03-fccd-4d45-a277-1a2eadd1b52d.jpg",
+            "title": "Dependable 5-Year Warranty",
+            "description": "Rest easy knowing your investment is protected with our dependable 5-year warranty. This extended coverage ensures that your massage chair continues to perform at its best, providing peace of mind for years to come. We stand behind the quality and durability of our products, and our dedicated customer support team is always ready to assist you. Enjoy relaxation with confidence, knowing that we've got you covered."
+          }
+        },
+        "block_xB7Qyd": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/1-1.jpg",
+            "title": "Unmatched Affordability",
+            "description": "Luxury doesn't have to come with a hefty price tag. Our massage chairs deliver premium features at an affordable price, making relaxation accessible to everyone. Enjoy the same high-end benefits found in much more expensive models, without the premium cost. With our commitment to affordability, you can indulge in world-class comfort and wellness without compromising on quality or your budget."
+          }
+        }
+      },
+      "block_order": [
+        "block_PRtcre",
+        "block_rU3FNj",
+        "block_xB7Qyd"
+      ],
+      "settings": {
+        "section_title": "Affordable Luxury with our Dependable 5-Year Warranty"
+      }
+    },
+    "about_section_VgzTGy": {
+      "type": "about-section",
+      "settings": {
+        "title": "Health Benefits of Massage Chairs",
+        "subtitle": "Discover the Transformative Power of Daily Massage",
+        "description": "<p>Massage chairs aren’t just about luxury—they’re about enhancing your health and well-being. Whether you’re looking to unwind after a long day or seeking relief from chronic discomfort, a massage chair can make a significant difference in your life. Here’s how: Stress and Anxiety Reduction: Regular massages help lower cortisol levels, reducing stress and promoting a sense of calm and relaxation. Pain Relief: Whether you suffer from back, neck, or muscle pain, targeted massage therapy can help alleviate tension and discomfort, giving you lasting relief. Improved Circulation: A massage stimulates blood flow throughout your body, which can aid in faster recovery, improved energy levels, and overall vitality. Better Sleep: Relaxation from massage can help regulate your sleep patterns, leading to deeper, more restorative sleep. Enhanced Flexibility and Mobility: Regular use can help loosen tight muscles and improve joint mobility, making everyday activities easier and more comfortable. Our massage chairs offer these benefits right in the comfort of your home. Experience the difference with a chair that’s designed to not only relax but also rejuvenate your body and mind.</p>",
+        "button_text": "Read our story",
+        "button_link": "shopify://products/wanko-sl-track-zero-gravity-full-body-recliner-massage-chair-cream",
+        "section_image": "shopify://shop_images/10_185c2d12-f1b9-4a3b-9de4-813ca331474d.jpg"
+      }
+    },
+    "feature_section_rQ7r6D": {
+      "type": "feature-section",
+      "blocks": {
+        "block_P4AUi3": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/credit-card_1.svg",
+            "title": "Secure Payments",
+            "description": "Our store uses SSL encryption to ensure your payment information is always secure"
+          }
+        },
+        "block_PdLCMC": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/truck_1.svg",
+            "title": "Free Shipping",
+            "description": "Free shipping on all orders, get your purchase delivered quickly and hassle-free"
+          }
+        },
+        "block_AY7nf9": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/cash.svg",
+            "title": "Money Back",
+            "description": "We stand behind the quality of our products and offer a 30-day money-back guarantee"
+          }
+        },
+        "block_A3cfad": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/heart-handshake.svg",
+            "title": "Customer Support",
+            "description": "Our support team is available 24/7 to assist you with any questions or concerns you have"
+          }
+        }
+      },
+      "block_order": [
+        "block_P4AUi3",
+        "block_PdLCMC",
+        "block_AY7nf9",
+        "block_A3cfad"
+      ],
+      "settings": {
+        "section_title": "Your Satisfaction Is Our Priority",
+        "section_subtitle": "Shopping with confidence"
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main",
+    "hero_section_dHipPk",
+    "product_selling_zLbQpg",
+    "warranty_section_NVttFH",
+    "about_section_VgzTGy",
+    "feature_section_rQ7r6D"
+  ]
 }
