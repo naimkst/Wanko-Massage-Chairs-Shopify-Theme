@@ -3517,9 +3517,11 @@ img {
     margin-bottom: 20px;
   }
 }
-.contact-info-area .contact-info-item i {
-  font-size: 40px;
+.contact-info-area .contact-info-item img {
+  width: 60px;
   color: #fff;
+  margin: 0 auto;
+  
 }
 .contact-info-area .contact-info-item h4 {
   font-size: 18px;
