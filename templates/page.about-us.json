@@ -111,7 +111,7 @@
       ],
       "settings": {
         "button_text": "ORDER NOW",
-        "button_link": ""
+        "button_link": "shopify://collections/massage-chairs"
       }
     }
   },
