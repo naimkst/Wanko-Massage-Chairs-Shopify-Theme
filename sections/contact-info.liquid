@@ -11,14 +11,14 @@
     <div class="contact-info-wrap">
       <div class="row">
         {% for block in section.blocks %}
-          <a href="{{ section.settings.link }}">
-            <div class="col-lg-4 col-md-6 col-12">
+          <div class="col-lg-4 col-md-6 col-12">
+            <a href="{{ section.settings.link }}">
               <div class="contact-info-item wow fadeInUp" data-wow-duration="1200ms">
                 <img src="{{ block.settings.block_image | image_url: width: 80 }}" alt="" width="40" height="40">
                 <h4>{{ block.settings.title }}</h4>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
         {% endfor %}
       </div>
     </div>
@@ -40,12 +40,6 @@
       "id": "section_subtitle",
       "label": "Section Subtitle",
       "default": "Join us on our journey to make holistic wellness accessible for everyone, one massage chair at a time."
-    },
-    {
-      "type": "text",
-      "id": "link",
-      "label": "Link",
-      "default": "#"
     }
   ],
   "blocks": [
@@ -63,6 +57,12 @@
           "id": "title",
           "label": "Title",
           "default": "cs@wankomassagechairs.com"
+        },
+        {
+          "type": "text",
+          "id": "link",
+          "label": "Link",
+          "default": "#"
         }
       ]
     }
