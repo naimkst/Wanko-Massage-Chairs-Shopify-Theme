@@ -11,11 +11,20 @@
   "sections": {
     "main": {
       "type": "404",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "page_hero_4CRF99": {
+      "type": "page-hero",
+      "settings": {
+        "title": "Return Policy",
+        "page_image": "shopify://shop_images/13_a01ab2c7-18b5-45e3-83f9-8ad7a5edd5be.jpg"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "page_hero_4CRF99"
   ]
 }
