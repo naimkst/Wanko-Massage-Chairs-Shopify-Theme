@@ -111,6 +111,27 @@
           "settings": {
             "heading": "Returns and Warranty"
           }
+        },
+        "faq_k4xrTX": {
+          "type": "faq",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p>We offer a 30-day return window for unused and undamaged products in their original packaging. A 15% restocking fee applies to all returns. Please refer to our Return Policy page for more details.</p>"
+          }
+        },
+        "faq_dX6p8Y": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I register my product for warranty coverage?",
+            "answer": "<p>You can register your product by filling out the Warranty Registration form on our website. Be sure to provide your purchase information and proof of purchase.</p>"
+          }
+        },
+        "faq_bbzU8j": {
+          "type": "faq",
+          "settings": {
+            "question": "What does the warranty cover?",
+            "answer": "<p>Our standard warranty includes unlimited technical support, parts coverage for 5 years, and labor coverage for the first year. Please refer to our Warranty Policy page for detailed information on coverage, limitations, and exclusions.</p>"
+          }
         }
       },
       "block_order": [
@@ -126,7 +147,10 @@
         "faq_M9aedG",
         "faq_HNf8C4",
         "faq_witBkT",
-        "title_68NNw9"
+        "title_68NNw9",
+        "faq_k4xrTX",
+        "faq_dX6p8Y",
+        "faq_bbzU8j"
       ],
       "settings": {
       }
