@@ -377,13 +377,50 @@
         "block_NPAHJ9": {
           "type": "block",
           "settings": {
-            "title": "Our Mission",
-            "description": "To provide unparalleled relaxation and wellness with our sleek, modern massage chairs. We blend luxury, affordability, and essential protection to enhance our customers' quality of life with high-quality craftsmanship and dedicated support."
+            "block_image": "shopify://shop_images/18_e495d433-4864-407e-aff9-ddeb9ebc9cf4.jpg",
+            "title": "Thai Stretch Massage",
+            "description": "Thai stretching in massage chairs provides a holistic approach to improving flexibility, reducing tension, and promoting overall health and well-being. Whether for relaxation, pain relief, or enhancing flexibility, Thai stretching techniques offer valuable benefits that complement other massage therapies."
+          }
+        },
+        "block_jrTLCK": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/14_5fd4149f-944c-40d5-8be2-5c8a2ec56845.jpg",
+            "title": "Extra Long 57.1 inches SL Track Mechanism",
+            "description": "Our SL massage chair combines advanced technology with ergonomic design to provide a therapeutic and customizable massage experience that targets multiple areas of the body, making it a valuable investment for relaxation and wellness."
+          }
+        },
+        "block_39mMiY": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/7_c59e9748-a1cc-459b-b43d-645bf53f53b3.jpg",
+            "title": "Automatic Leg Adjustment",
+            "description": "Our automatic leg extension offers benefits such as customizable fit, enhanced comfort, improved blood circulation, versatility in use, support for different body types, ease of use, therapeutic benefits, and modern design appeal. These advantages contribute to a more comfortable, effective, and enjoyable massage chair experience tailored to individual preferences and needs."
+          }
+        },
+        "block_NLcBdi": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/12_1965d32d-a678-41fc-ace3-02e0ab66f585.jpg",
+            "title": "One Touch Zero Gravity",
+            "description": "Zero gravity positioning in massage chairs provides a range of benefits including spinal decompression, improved circulation, enhanced relaxation, better massage effectiveness, joint pressure relief, stress reduction, postural improvement, and support for lymphatic drainage. These benefits make zero gravity an attractive feature for those seeking therapeutic massage and overall wellness enhancement."
+          }
+        },
+        "block_48nRbM": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/13_b19c22c2-8484-4a96-a52e-c871da50b9d5.jpg",
+            "title": "Full Body Air Massage",
+            "description": "Our full body airbag massage feature provides a convenient and effective way to relax, relieve muscle tension, improve circulation, and promote overall well-being without leaving home. It's a valuable tool for both relaxation and therapeutic purposes, offering benefits that can enhance physical and mental health over time."
           }
         }
       },
       "block_order": [
-        "block_NPAHJ9"
+        "block_NPAHJ9",
+        "block_jrTLCK",
+        "block_39mMiY",
+        "block_NLcBdi",
+        "block_48nRbM"
       ],
       "settings": {
         "button_text": "ORDER NOW",
