@@ -294,10 +294,38 @@
         "details_title": "Description",
         "specifications_title": "Specifications"
       }
+    },
+    "product_info_fV6Xmr": {
+      "type": "product-info",
+      "blocks": {
+        "block_n3aR8k": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/shield-half.svg",
+            "title": "Secure Shopping",
+            "description": "Our store uses SSL encryption to ensure your payment information is always secure"
+          }
+        },
+        "block_zXFGq9": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/moneybag.svg",
+            "title": "Money Back",
+            "description": "We stand behind the quality of our products and offer a 30-day money-back guarantee"
+          }
+        }
+      },
+      "block_order": [
+        "block_n3aR8k",
+        "block_zXFGq9"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "product_description_YBfQkj"
+    "product_description_YBfQkj",
+    "product_info_fV6Xmr"
   ]
 }
