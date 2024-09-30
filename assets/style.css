@@ -2947,6 +2947,7 @@ img {
 .features-section .features-item img {
   width: 60px;
   margin-bottom: 15px;
+  filter: invert(1);
 }
 .features-section .features-item p {
   font-size: 17px;
