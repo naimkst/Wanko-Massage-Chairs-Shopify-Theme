@@ -389,14 +389,6 @@
             "title": "Minimum Doorway And Box Sizes",
             "description": "Make sure to measure your doorway to confirm that the model you choose will fit seamlessly.While this chair is designed to fit through a 30\" door width, we recommend allowing an additional 2\" for easier maneuverability during installation."
           }
-        },
-        "block_f9JPGc": {
-          "type": "block",
-          "settings": {
-            "block_image": "shopify://shop_images/11_9b760f90-fcd3-4f59-8879-20bcdc0cd074.jpg",
-            "title": "Minimum Doorway And Box Sizes",
-            "description": "Make sure to measure your doorway to confirm that the model you choose will fit seamlessly.While this chair is designed to fit through a 30\" door width, we recommend allowing an additional 2\" for easier maneuverability during installation."
-          }
         }
       },
       "block_order": [
@@ -408,8 +400,7 @@
         "block_QqfqYt",
         "block_pQcGKy",
         "block_P6Xxpq",
-        "block_a8WkpX",
-        "block_f9JPGc"
+        "block_a8WkpX"
       ],
       "settings": {
         "button_text": "ORDER NOW",
