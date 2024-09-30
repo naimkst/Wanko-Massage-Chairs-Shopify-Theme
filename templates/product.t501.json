@@ -471,6 +471,13 @@
         "button_text": "ORDER NOW",
         "button_link": "shopify://products/wanko-sl-track-zero-gravity-full-body-recliner-massage-chair-1"
       }
+    },
+    "product_selling_yXNMNc": {
+      "type": "product-selling",
+      "settings": {
+        "title": "People Who Bought This Also Like",
+        "product_collection": "massage-chairs"
+      }
     }
   },
   "order": [
@@ -478,6 +485,7 @@
     "product_description_YBfQkj",
     "product_info_fV6Xmr",
     "warranty_section_GKBAyc",
-    "about_feature_6bfzjB"
+    "about_feature_6bfzjB",
+    "product_selling_yXNMNc"
   ]
 }
