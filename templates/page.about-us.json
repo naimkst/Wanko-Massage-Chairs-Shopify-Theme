@@ -113,12 +113,48 @@
         "button_text": "ORDER NOW",
         "button_link": "shopify://collections/massage-chairs"
       }
+    },
+    "contact_info_dXWtzW": {
+      "type": "contact-info",
+      "blocks": {
+        "block_6LKfra": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/message.svg",
+            "title": "cs@wankomassagechairs.com"
+          }
+        },
+        "block_rJ3G9R": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/brand-whatsapp.svg",
+            "title": "+1 510 365 1775"
+          }
+        },
+        "block_zEntLN": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/map-pin_1.svg",
+            "title": "5173 Maniago Way, Antioch, CA 94531"
+          }
+        }
+      },
+      "block_order": [
+        "block_6LKfra",
+        "block_rJ3G9R",
+        "block_zEntLN"
+      ],
+      "settings": {
+        "section_title": "Contact Us",
+        "section_subtitle": "Join us on our journey to make holistic wellness accessible for everyone, one massage chair at a time."
+      }
     }
   },
   "order": [
     "main",
     "page_hero_FUPbYt",
     "about_area_hzn8qW",
-    "about_feature_Y7aPN9"
+    "about_feature_Y7aPN9",
+    "contact_info_dXWtzW"
   ]
 }
