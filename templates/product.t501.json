@@ -303,7 +303,8 @@
           "settings": {
             "block_image": "shopify://shop_images/shield-half.svg",
             "title": "Secure Shopping",
-            "description": "Our store uses SSL encryption to ensure your payment information is always secure"
+            "description": "Our store uses SSL encryption to ensure your payment information is always secure",
+            "link": "#"
           }
         },
         "block_zXFGq9": {
@@ -311,7 +312,8 @@
           "settings": {
             "block_image": "shopify://shop_images/moneybag.svg",
             "title": "Money Back",
-            "description": "We stand behind the quality of our products and offer a 30-day money-back guarantee"
+            "description": "We stand behind the quality of our products and offer a 30-day money-back guarantee",
+            "link": "#"
           }
         },
         "block_BxmnkC": {
@@ -319,7 +321,8 @@
           "settings": {
             "block_image": "shopify://shop_images/brand-whatsapp.svg",
             "title": "Customer Support",
-            "description": "Our support team is available 24/7 to assist you with any questions or concerns you have"
+            "description": "Our support team is available 24/7 to assist you with any questions or concerns you have",
+            "link": "#"
           }
         }
       },
@@ -330,11 +333,49 @@
       ],
       "settings": {
       }
+    },
+    "warranty_section_GKBAyc": {
+      "type": "warranty-section",
+      "blocks": {
+        "block_bULMMD": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/Massage_Chair_Service_section.jpg",
+            "title": "Sleek, Modern Design",
+            "description": "Discover the perfect blend of style and functionality with our sleek, modern massage chairs. Designed with contemporary aesthetics in mind, each chair is crafted to complement any home or office space. The ergonomic contours not only provide ultimate comfort but also add a touch of sophistication to your environment. Elevate your space with a chair that offers more than just relaxation its a statement piece that reflects your refined taste."
+          }
+        },
+        "block_A49PNQ": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/5_cd6cac03-fccd-4d45-a277-1a2eadd1b52d.jpg",
+            "title": "Dependable 5-Year Warranty",
+            "description": "Rest easy knowing your investment is protected with our dependable 5-year warranty. This extended coverage ensures that your massage chair continues to perform at its best, providing peace of mind for years to come. We stand behind the quality and durability of our products, and our dedicated customer support team is always ready to assist you. Enjoy relaxation with confidence, knowing that we've got you covered."
+          }
+        },
+        "block_Hhre3t": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/1-1_88d4b799-057f-4221-a13b-1944b0ea7e81.jpg",
+            "title": "Unmatched Affordability",
+            "description": "Luxury doesn't have to come with a hefty price tag. Our massage chairs deliver premium features at an affordable price, making relaxation accessible to everyone. Enjoy the same high-end benefits found in much more expensive models, without the premium cost. With our commitment to affordability, you can indulge in world-class comfort and wellness without compromising on quality or your budget."
+          }
+        }
+      },
+      "block_order": [
+        "block_bULMMD",
+        "block_A49PNQ",
+        "block_Hhre3t"
+      ],
+      "settings": {
+        "section_title": "Affordable Luxury with our Dependable 5-Year Warranty"
+      }
     }
   },
   "order": [
     "main",
     "product_description_YBfQkj",
-    "product_info_fV6Xmr"
+    "product_info_fV6Xmr",
+    "warranty_section_GKBAyc"
   ]
 }
