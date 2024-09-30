@@ -132,6 +132,33 @@
             "question": "What does the warranty cover?",
             "answer": "<p>Our standard warranty includes unlimited technical support, parts coverage for 5 years, and labor coverage for the first year. Please refer to our Warranty Policy page for detailed information on coverage, limitations, and exclusions.</p>"
           }
+        },
+        "title_WztrFK": {
+          "type": "title",
+          "settings": {
+            "heading": "Product Use and Maintenance"
+          }
+        },
+        "faq_n7bx4E": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I clean and maintain my massage chair?",
+            "answer": "<p>To clean your massage chair, use a damp cloth with mild soap to wipe down the surface. Avoid using harsh chemicals or abrasive materials. Refer to your user manual for specific maintenance instructions.</p>"
+          }
+        },
+        "faq_8z88QF": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I use the massage chair if I have a medical condition?",
+            "answer": "<p>If you have any medical conditions or concerns, we recommend consulting with your healthcare provider before using a massage chair or any other massage device. Certain conditions may require special consideration.</p>"
+          }
+        },
+        "faq_U7yAPV": {
+          "type": "faq",
+          "settings": {
+            "question": "What should I do if my massage chair stops working?",
+            "answer": "<p>First, refer to the troubleshooting section of your user manual. If the issue persists, contact our customer service team for assistance. If your product is still under warranty, we will help arrange for repairs or replacements as needed.</p>"
+          }
         }
       },
       "block_order": [
@@ -150,7 +177,11 @@
         "title_68NNw9",
         "faq_k4xrTX",
         "faq_dX6p8Y",
-        "faq_bbzU8j"
+        "faq_bbzU8j",
+        "title_WztrFK",
+        "faq_n7bx4E",
+        "faq_8z88QF",
+        "faq_U7yAPV"
       ],
       "settings": {
       }
