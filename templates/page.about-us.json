@@ -21,10 +21,46 @@
         "title": "About Us",
         "page_image": "shopify://shop_images/7_3fc67a2b-9fd4-49ff-bb80-b2b46de5a9fa.jpg"
       }
+    },
+    "about_area_hzn8qW": {
+      "type": "about-area",
+      "blocks": {
+        "image_aM8wCp": {
+          "type": "image",
+          "settings": {
+            "item_image": "shopify://shop_images/9_5e002a2a-9af8-4299-b6ee-a7c9881b6881.jpg",
+            "item_title": "Remote Control"
+          }
+        },
+        "image_n8wE3N": {
+          "type": "image",
+          "settings": {
+            "item_image": "shopify://shop_images/13_a01ab2c7-18b5-45e3-83f9-8ad7a5edd5be.jpg",
+            "item_title": "Easy Control"
+          }
+        },
+        "image_f4TPJi": {
+          "type": "image",
+          "settings": {
+            "item_title": "Remote Control"
+          }
+        }
+      },
+      "block_order": [
+        "image_aM8wCp",
+        "image_n8wE3N",
+        "image_f4TPJi"
+      ],
+      "settings": {
+        "title": "About Us",
+        "description": "Welcome to Wanko Massage Chairs, where we blend luxury, affordability, and essential protection to enhance your quality of life. Our mission is to provide unparalleled relaxation and wellness with our sleek, modern massage chairs. At Wanko Massage Chairs, we believe that everyone deserves to experience the benefits of a high-quality massage in the comfort of their own home.",
+        "about_image": "shopify://shop_images/8_26e79814-e28a-4a0c-9d83-096f7180de0b.jpg"
+      }
     }
   },
   "order": [
     "main",
-    "page_hero_FUPbYt"
+    "page_hero_FUPbYt",
+    "about_area_hzn8qW"
   ]
 }
