@@ -142,10 +142,10 @@
           "support_title": "Support",
           "support_links": "support",
           "social_media_text": "Follow Us On Social Media",
-          "facebook_link": "",
-          "twitter_link": "",
-          "linkedin_link": "",
-          "instagram_link": ""
+          "facebook_link": "#",
+          "twitter_link": "#",
+          "linkedin_link": "#",
+          "instagram_link": "#"
         }
       }
     },
