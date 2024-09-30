@@ -121,21 +121,24 @@
           "type": "block",
           "settings": {
             "block_image": "shopify://shop_images/message.svg",
-            "title": "cs@wankomassagechairs.com"
+            "title": "cs@wankomassagechairs.com",
+            "link": "#"
           }
         },
         "block_rJ3G9R": {
           "type": "block",
           "settings": {
             "block_image": "shopify://shop_images/brand-whatsapp.svg",
-            "title": "+1 510 365 1775"
+            "title": "+1 510 365 1775",
+            "link": "https://wa.me/15103651775"
           }
         },
         "block_zEntLN": {
           "type": "block",
           "settings": {
             "block_image": "shopify://shop_images/map-pin_1.svg",
-            "title": "5173 Maniago Way, Antioch, CA 94531"
+            "title": "5173 Maniago Way, Antioch, CA 94531",
+            "link": "#"
           }
         }
       },

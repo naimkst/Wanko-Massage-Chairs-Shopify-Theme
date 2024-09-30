@@ -1,0 +1,30 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "page_hero_cQHM3h": {
+      "type": "page-hero",
+      "settings": {
+        "title": "Privacy Policy",
+        "page_image": "shopify://shop_images/13_a01ab2c7-18b5-45e3-83f9-8ad7a5edd5be.jpg"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_hero_cQHM3h"
+  ]
+}
