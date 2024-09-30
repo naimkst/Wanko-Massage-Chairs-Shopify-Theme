@@ -1406,6 +1406,7 @@ img {
   background: none;
   box-shadow: none;
   border: 1px solid #fff;
+  color: #fff;
 }
 .cart-search-contact input:focus {
   box-shadow: none;

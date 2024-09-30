@@ -63,11 +63,13 @@
                     ></i>
                   </button>
                   <div class="header-search-form">
-                    <form>
+                    <form action="{{ routes.search_url }}">
                       <div>
                         <input
                           type="text"
+                          name="q"
                           class="form-control"
+                          value="{{ search.terms | escape }}"
                           placeholder="Search here..."
                         >
                         <button type="submit">
