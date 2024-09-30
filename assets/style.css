@@ -3554,10 +3554,10 @@ img {
   font-size: 27px;
   margin-bottom: 30px;
 }
-.policy-area .policy-wrap .policy-item.inner ul {
+.policy-area .policy-wrap .policy-item ul {
   padding-left: 40px;
 }
-.policy-area .policy-wrap .policy-item.number ul {
+.policy-area .policy-wrap .policy-item ul {
   list-style: auto;
 }
 

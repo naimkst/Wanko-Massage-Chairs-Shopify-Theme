@@ -1,0 +1,28 @@
+<section class="policy-area section-padding">
+  <div class="container">
+    <div class="policy-wrap">
+      <div class="policy-item policy-item number">
+        {{ section.settings.description }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Policy Section",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>At Wanko Massage Chairs, we want you to be completely satisfied with your purchase. If for any reason you are not satisfied, we offer a straightforward return policy to ensure a smooth process. Please read the following policy carefully to understand our terms and conditions.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Policy Section"
+    }
+  ]
+}
+{% endschema %}
