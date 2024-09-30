@@ -35,9 +35,269 @@
       ],
       "settings": {
       }
+    },
+    "product_description_YBfQkj": {
+      "type": "product-description",
+      "blocks": {
+        "info_zT8mBe": {
+          "type": "info",
+          "settings": {
+            "title": "Model",
+            "description": "T710"
+          }
+        },
+        "info_KRR847": {
+          "type": "info",
+          "settings": {
+            "title": "Mechanism",
+            "description": "Extra Long 57.01 inches SL Track Massage from Neck to Buttocks"
+          }
+        },
+        "info_Fn3RKq": {
+          "type": "info",
+          "settings": {
+            "title": "Massage Roller Material",
+            "description": "Medical Silicone"
+          }
+        },
+        "info_Q9QKi6": {
+          "type": "info",
+          "settings": {
+            "title": "Foot Massage",
+            "description": "2 Sets of Massage Rollers for Feet"
+          }
+        },
+        "info_UmaVH7": {
+          "type": "info",
+          "settings": {
+            "title": "Controller",
+            "description": "Full Touch-Screen 7\" Tablet Controller"
+          }
+        },
+        "info_KbGWPC": {
+          "type": "info",
+          "settings": {
+            "title": "Additional Characteristics",
+            "description": "Quick Control Panel & Mobile Phone Holder"
+          }
+        },
+        "info_d3JDW8": {
+          "type": "info",
+          "settings": {
+            "title": "Massage Technique",
+            "description": "6 Massage Techniques (Fascia Rub, Shiatsu, Knead, Knead & Knock, Knock, Tap)"
+          }
+        },
+        "info_y7rihr": {
+          "type": "info",
+          "settings": {
+            "title": "Massage program",
+            "description": "12 Automatic Modes + Manual Program"
+          }
+        },
+        "info_pFm9pc": {
+          "type": "info",
+          "settings": {
+            "title": "Airbag Coverage (Full body)",
+            "description": "Shoulders, Arms, Calves, Feet"
+          }
+        },
+        "info_YGDLfy": {
+          "type": "info",
+          "settings": {
+            "title": "Massage Intensity",
+            "description": "Adjustable to 5 Levels"
+          }
+        },
+        "info_CXamkq": {
+          "type": "info",
+          "settings": {
+            "title": "Airbag Intensity",
+            "description": "Adjustable to 5 Levels"
+          }
+        },
+        "info_jLbYHx": {
+          "type": "info",
+          "settings": {
+            "title": "Heating Function",
+            "description": "Yes - Waist and Calf Areas"
+          }
+        },
+        "info_wKf8EU": {
+          "type": "info",
+          "settings": {
+            "title": "Leg Extension",
+            "description": "Electric retractable - 5.9 inches (15cm)"
+          }
+        },
+        "info_KKgHkd": {
+          "type": "info",
+          "settings": {
+            "title": "Zero Gravity Angle",
+            "description": "2 Levels, Max Angle: 180-190 Degrees"
+          }
+        },
+        "info_LVGHVb": {
+          "type": "info",
+          "settings": {
+            "title": "Surface Material",
+            "description": "Full ABS Shell"
+          }
+        },
+        "info_DAxiKb": {
+          "type": "info",
+          "settings": {
+            "title": "Gross Weight / Net Weight",
+            "description": "253.5 lbs / 216.1 lbs (115 kg / 98 kg)"
+          }
+        },
+        "info_PdA477": {
+          "type": "info",
+          "settings": {
+            "title": "Thai Stretching Massage",
+            "description": "Yes"
+          }
+        },
+        "info_tHrtq8": {
+          "type": "info",
+          "settings": {
+            "title": "Health Check Function",
+            "description": "Yes"
+          }
+        },
+        "info_JXkENx": {
+          "type": "info",
+          "settings": {
+            "title": "LED Light",
+            "description": "Yes"
+          }
+        },
+        "info_3zRBhN": {
+          "type": "info",
+          "settings": {
+            "title": "Precise Body Scanning",
+            "description": "Yes"
+          }
+        },
+        "info_HtkXe4": {
+          "type": "info",
+          "settings": {
+            "title": "AI English Voice",
+            "description": "Yes"
+          }
+        },
+        "info_aU8rF6": {
+          "type": "info",
+          "settings": {
+            "title": "Bluetooth Function",
+            "description": "Yes"
+          }
+        },
+        "info_ihhiiU": {
+          "type": "info",
+          "settings": {
+            "title": "Upright Dimensions",
+            "description": "63 inches x 31.9 inches x 44.9 inches (160 cm x 81 cm x 114 cm)"
+          }
+        },
+        "info_3RP4UY": {
+          "type": "info",
+          "settings": {
+            "title": "Model",
+            "description": "Recline Dimensions"
+          }
+        },
+        "info_Fimmfh": {
+          "type": "info",
+          "settings": {
+            "title": "Packing Dimensions",
+            "description": "61.8 inches x 34.3 inches x 44.9 inches (157 cm x 87 cm x 114 cm)"
+          }
+        },
+        "info_e8F3F8": {
+          "type": "info",
+          "settings": {
+            "title": "Packing Dimensions with Pallets",
+            "description": "61.8 inches x 34.3 inches x 50.4 inches (157 cm x 87 cm x 128 cm)"
+          }
+        },
+        "info_P7GDRn": {
+          "type": "info",
+          "settings": {
+            "title": "Minimum Doorway Width",
+            "description": "34 inches (86 cm)"
+          }
+        },
+        "info_DPNBzi": {
+          "type": "info",
+          "settings": {
+            "title": "Rated Power / Plug",
+            "description": "110V, 120W"
+          }
+        },
+        "info_DnVXJe": {
+          "type": "info",
+          "settings": {
+            "title": "Maximum Weight Capacity",
+            "description": "396.8 lbs (180 kg) "
+          }
+        },
+        "info_4zcXFe": {
+          "type": "info",
+          "settings": {
+            "title": "Recommended Height",
+            "description": "59 inches - 78 inches (150 cm - 198 cm)"
+          }
+        },
+        "info_txtFfK": {
+          "type": "info",
+          "settings": {
+            "title": "Wall Hugging / Space Saving",
+            "description": "Yes - 4.7 inches (12 cm)"
+          }
+        }
+      },
+      "block_order": [
+        "info_zT8mBe",
+        "info_KRR847",
+        "info_Fn3RKq",
+        "info_Q9QKi6",
+        "info_UmaVH7",
+        "info_KbGWPC",
+        "info_d3JDW8",
+        "info_y7rihr",
+        "info_pFm9pc",
+        "info_YGDLfy",
+        "info_CXamkq",
+        "info_jLbYHx",
+        "info_wKf8EU",
+        "info_KKgHkd",
+        "info_LVGHVb",
+        "info_DAxiKb",
+        "info_PdA477",
+        "info_tHrtq8",
+        "info_JXkENx",
+        "info_3zRBhN",
+        "info_HtkXe4",
+        "info_aU8rF6",
+        "info_ihhiiU",
+        "info_3RP4UY",
+        "info_Fimmfh",
+        "info_e8F3F8",
+        "info_P7GDRn",
+        "info_DPNBzi",
+        "info_DnVXJe",
+        "info_4zcXFe",
+        "info_txtFfK"
+      ],
+      "settings": {
+        "details_title": "Description",
+        "specifications_title": "Specifications"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "product_description_YBfQkj"
   ]
 }
