@@ -3521,7 +3521,8 @@ img {
   width: 60px;
   color: #fff;
   margin: 0 auto;
-  
+  filter: invert(1);
+  margin-bottom: 12px;
 }
 .contact-info-area .contact-info-item h4 {
   font-size: 18px;
