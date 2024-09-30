@@ -1,0 +1,160 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "page_hero_FUPbYt": {
+      "type": "page-hero",
+      "settings": {
+        "title": "About Us",
+        "page_image": "shopify://shop_images/7_3fc67a2b-9fd4-49ff-bb80-b2b46de5a9fa.jpg"
+      }
+    },
+    "about_area_hzn8qW": {
+      "type": "about-area",
+      "blocks": {
+        "image_aM8wCp": {
+          "type": "image",
+          "settings": {
+            "item_image": "shopify://shop_images/9_5e002a2a-9af8-4299-b6ee-a7c9881b6881.jpg",
+            "item_title": "Remote Control"
+          }
+        },
+        "image_n8wE3N": {
+          "type": "image",
+          "settings": {
+            "item_image": "shopify://shop_images/13_a01ab2c7-18b5-45e3-83f9-8ad7a5edd5be.jpg",
+            "item_title": "Easy Control"
+          }
+        },
+        "image_f4TPJi": {
+          "type": "image",
+          "settings": {
+            "item_image": "shopify://shop_images/9_a3112f61-3df6-4086-a337-4b1a72f98a10.jpg",
+            "item_title": "Extendable Footrest"
+          }
+        }
+      },
+      "block_order": [
+        "image_aM8wCp",
+        "image_n8wE3N",
+        "image_f4TPJi"
+      ],
+      "settings": {
+        "title": "About Us",
+        "description": "Welcome to Wanko Massage Chairs, where we blend luxury, affordability, and essential protection to enhance your quality of life. Our mission is to provide unparalleled relaxation and wellness with our sleek, modern massage chairs. At Wanko Massage Chairs, we believe that everyone deserves to experience the benefits of a high-quality massage in the comfort of their own home.",
+        "about_image": "shopify://shop_images/8_26e79814-e28a-4a0c-9d83-096f7180de0b.jpg"
+      }
+    },
+    "about_feature_Y7aPN9": {
+      "type": "about-feature",
+      "blocks": {
+        "block_T89CdJ": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/13_757a05ac-0072-49a1-8ba1-789472d3dbff.jpg",
+            "title": "Our Mission",
+            "description": "To provide unparalleled relaxation and wellness with our sleek, modern massage chairs. We blend luxury, affordability, and essential protection to enhance our customers' quality of life with high-quality craftsmanship and dedicated support."
+          }
+        },
+        "block_nAbgJW": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/10_1b6417ba-2a89-45ce-b8cc-a51b75dc9be4.jpg",
+            "title": "Our Vision",
+            "description": "Our vision is to make holistic wellness accessible by bringing the comfort and benefits of our affordable, luxurious massage chairs into every household, ensuring each family enjoys relaxation and peace of mind."
+          }
+        },
+        "block_gn9NGW": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/13_a01ab2c7-18b5-45e3-83f9-8ad7a5edd5be.jpg",
+            "title": "Our Value Proposition",
+            "description": "At Wanko Massage Chairs, we offer Affordable Luxury with our Dependable 5-Year Warranty. Our products are designed to deliver a premium massage experience without the premium price tag. With unlimited technical support, parts covered for 5 years, and labor covered for the first year, you can relax knowing your investment is protected."
+          }
+        },
+        "block_PVF44n": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/7_3fc67a2b-9fd4-49ff-bb80-b2b46de5a9fa.jpg",
+            "title": "Our Story",
+            "description": "Founded with the belief that everyone deserves to experience the rejuvenating power of a professional massage, Wanko Massage Chairs is quickly establishing itself as a trusted name in the wellness industry. Our team is dedicated to delivering massage chairs that combine cutting-edge technology with exceptional comfort and style.We understand that life can be stressful, and finding time for self-care is often a challenge. That's why our massage chairs are designed to bring the benefits of a spa-quality massage into the convenience of your own home. Whether you're looking to relieve stress, soothe sore muscles, or simply unwind after a long day, our massage chairs are the perfect solution."
+          }
+        },
+        "block_nP9dBY": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/12_63d98f9e-a580-4abc-8df4-d78d04e6dc76.jpg",
+            "title": "Our Commitment",
+            "description": "We are committed to providing our customers with high-quality products, exceptional customer service, and ongoing support. From the moment you browse our website to the delivery and setup of your new massage chair, we strive to ensure a seamless and enjoyable experience.Thank you for choosing Wanko Massage Chairs. We look forward to helping you achieve the ultimate in relaxation and wellness. If you have any questions or need assistance, please do not hesitate to contact our friendly customer service team."
+          }
+        }
+      },
+      "block_order": [
+        "block_T89CdJ",
+        "block_nAbgJW",
+        "block_gn9NGW",
+        "block_PVF44n",
+        "block_nP9dBY"
+      ],
+      "settings": {
+        "button_text": "ORDER NOW",
+        "button_link": "shopify://collections/massage-chairs"
+      }
+    },
+    "contact_info_dXWtzW": {
+      "type": "contact-info",
+      "blocks": {
+        "block_6LKfra": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/message.svg",
+            "title": "cs@wankomassagechairs.com"
+          }
+        },
+        "block_rJ3G9R": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/brand-whatsapp.svg",
+            "title": "+1 510 365 1775"
+          }
+        },
+        "block_zEntLN": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/map-pin_1.svg",
+            "title": "5173 Maniago Way, Antioch, CA 94531"
+          }
+        }
+      },
+      "block_order": [
+        "block_6LKfra",
+        "block_rJ3G9R",
+        "block_zEntLN"
+      ],
+      "settings": {
+        "section_title": "Contact Us",
+        "section_subtitle": "Join us on our journey to make holistic wellness accessible for everyone, one massage chair at a time."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_hero_FUPbYt",
+    "about_area_hzn8qW",
+    "about_feature_Y7aPN9",
+    "contact_info_dXWtzW"
+  ]
+}
