@@ -370,12 +370,32 @@
       "settings": {
         "section_title": "Affordable Luxury with our Dependable 5-Year Warranty"
       }
+    },
+    "about_feature_6bfzjB": {
+      "type": "about-feature",
+      "blocks": {
+        "block_NPAHJ9": {
+          "type": "block",
+          "settings": {
+            "title": "Our Mission",
+            "description": "To provide unparalleled relaxation and wellness with our sleek, modern massage chairs. We blend luxury, affordability, and essential protection to enhance our customers' quality of life with high-quality craftsmanship and dedicated support."
+          }
+        }
+      },
+      "block_order": [
+        "block_NPAHJ9"
+      ],
+      "settings": {
+        "button_text": "ORDER NOW",
+        "button_link": "shopify://products/wanko-sl-track-zero-gravity-full-body-recliner-massage-chair-1"
+      }
     }
   },
   "order": [
     "main",
     "product_description_YBfQkj",
     "product_info_fV6Xmr",
-    "warranty_section_GKBAyc"
+    "warranty_section_GKBAyc",
+    "about_feature_6bfzjB"
   ]
 }
