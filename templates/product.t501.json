@@ -413,6 +413,46 @@
             "title": "Full Body Air Massage",
             "description": "Our full body airbag massage feature provides a convenient and effective way to relax, relieve muscle tension, improve circulation, and promote overall well-being without leaving home. It's a valuable tool for both relaxation and therapeutic purposes, offering benefits that can enhance physical and mental health over time."
           }
+        },
+        "block_QqfqYt": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/11_9e85f724-9444-45f5-be32-cf5296c2886d.jpg",
+            "title": "Armrest shortcut button",
+            "description": "Armrest shortcuts in massage chairs provide benefits such as ease of access, convenience, enhanced user control, personalization, intuitive design, minimized disruption during massage sessions, accessibility for elderly users, and an overall enhanced user experience. These advantages make armrest shortcuts a valuable feature that enhances the functionality and usability of modern massage chairs, contributing to user satisfaction and well-being."
+          }
+        },
+        "block_pQcGKy": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/16_a6c8d81d-e726-4796-a0b6-553f33042dc4.jpg",
+            "title": "Targeted Heating",
+            "description": "Dual Heating in the lower back, waist, and calves of a massage chair provides soothing warmth that helps relax muscles, increase blood circulation, and alleviate stiffness. This targeted heat therapy aids in relieving chronic pain and muscle tension by promoting better circulation, which enhances the delivery of oxygen and nutrients to tissues, reducing inflammation and discomfort. It also complements the massage function by relaxing the lower body, particularly after prolonged standing or walking, supporting overall recovery, improved flexibility, and a sense of well-being."
+          }
+        },
+        "block_P6Xxpq": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/9_68a65f2d-4c01-4c5d-9e0f-0cc3e6748093.jpg",
+            "title": "Smart Touchscreen Controller",
+            "description": "Tablet controllers in our massage chairs offer enhanced customization, user-friendly interfaces, interactive features, and convenient accessibility. These benefits combine to provide users with a more personalized and enjoyable massage experience that can promote relaxation, alleviate muscle tension, and improve overall well-being."
+          }
+        },
+        "block_a8WkpX": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/5_e6118eef-9834-4f6f-8745-d1731b4dd474.jpg",
+            "title": "Medical Silicone Rollers",
+            "description": "Using medical silicone massage heads in massage chairs offers benefits such as gentle yet effective massage, hygienic and easy-to-clean surfaces, durability and longevity, heat resistance, versatile massage techniques, smooth and comfortable massage experience, quiet operation, skin safety, and enhanced blood circulation. These advantages make silicone massage heads a preferred choice for enhancing the therapeutic benefits and user satisfaction of massage chairs in both residential and professional settings."
+          }
+        },
+        "block_f9JPGc": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/8_921e03a4-727c-45fb-b9b4-617fb0254308.jpg",
+            "title": "Minimum Doorway And Box Sizes",
+            "description": "Make sure to measure your doorway to confirm that the model you choose will fit seamlessly.While this chair is designed to fit through a 32\" door width, we recommend allowing an additional 2\" for easier maneuverability during installation."
+          }
         }
       },
       "block_order": [
@@ -420,7 +460,12 @@
         "block_jrTLCK",
         "block_39mMiY",
         "block_NLcBdi",
-        "block_48nRbM"
+        "block_48nRbM",
+        "block_QqfqYt",
+        "block_pQcGKy",
+        "block_P6Xxpq",
+        "block_a8WkpX",
+        "block_f9JPGc"
       ],
       "settings": {
         "button_text": "ORDER NOW",
