@@ -11,11 +11,20 @@
   "sections": {
     "main": {
       "type": "404",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "page_hero_FUPbYt": {
+      "type": "page-hero",
+      "settings": {
+        "title": "About Us",
+        "page_image": "shopify://shop_images/7_3fc67a2b-9fd4-49ff-bb80-b2b46de5a9fa.jpg"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "page_hero_FUPbYt"
   ]
 }
