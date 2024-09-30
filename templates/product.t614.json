@@ -43,139 +43,111 @@
           "type": "info",
           "settings": {
             "title": "Model",
-            "description": "T508"
+            "description": "T614"
           }
         },
         "info_KRR847": {
           "type": "info",
           "settings": {
-            "title": "Mechanism",
-            "description": "Long 57.01 inches SL Track Massage from Neck to Buttocks"
+            "title": "Dimensions/Mechanism",
+            "description": "SKU"
           }
         },
         "info_Fn3RKq": {
           "type": "info",
           "settings": {
             "title": "Massage Roller Material",
-            "description": "Medical Silicone"
+            "description": "ABS"
           }
         },
         "info_Q9QKi6": {
           "type": "info",
           "settings": {
             "title": "Foot Massage",
-            "description": "2 Sets of Massage Rollers for Feet"
+            "description": "2 sets of massage rollers for feet"
           }
         },
         "info_UmaVH7": {
           "type": "info",
           "settings": {
             "title": "Controller",
-            "description": "Full Touch-Screen 7\" Tablet Controller"
+            "description": "7-inch touch screen"
           }
         },
         "info_KbGWPC": {
           "type": "info",
           "settings": {
             "title": "Additional Characteristics",
-            "description": "Quick Control Panel, USB & Wireless Charging"
-          }
-        },
-        "info_d3JDW8": {
-          "type": "info",
-          "settings": {
-            "title": "Massage Technique",
-            "description": "6 Massage Techniques (Fascia Rub, Shiatsu, Knead, Sync, Knock, Tap)"
+            "description": "Quick control panel+USB Charge / Wireless charging"
           }
         },
         "info_y7rihr": {
           "type": "info",
           "settings": {
             "title": "Massage program",
-            "description": "8 Automatic Modes + Manual Program"
+            "description": "6 automatic modes"
           }
         },
         "info_pFm9pc": {
           "type": "info",
           "settings": {
             "title": "Airbag Coverage (Full body)",
-            "description": "Shoulders, Arms, hips, Calves, Feet"
+            "description": "Shoulders/Arms/Calf/Feet , +Upgraded thigh airbag"
           }
         },
         "info_YGDLfy": {
           "type": "info",
           "settings": {
             "title": "Massage Intensity",
-            "description": "Adjustable to 3 Levels"
+            "description": "Three gears adjustable"
           }
         },
         "info_CXamkq": {
           "type": "info",
           "settings": {
             "title": "Airbag Intensity",
-            "description": "Adjustable to 3 Levels"
+            "description": "Three gears adjustable"
           }
         },
         "info_jLbYHx": {
           "type": "info",
           "settings": {
             "title": "Heating Function",
-            "description": "Yes - Waist & Calves Areas"
+            "description": "Yes-Waist part"
           }
         },
         "info_wKf8EU": {
           "type": "info",
           "settings": {
             "title": "Leg Extension",
-            "description": "Retractable - 5.9 inches (15cm)"
+            "description": "Retractable, 5.9\" or 15CM"
           }
         },
         "info_KKgHkd": {
           "type": "info",
           "settings": {
             "title": "Zero Gravity Angle",
-            "description": "Max Angle: 180-190 Degrees"
+            "description": "Max Angle: 180-190 degree"
           }
         },
         "info_LVGHVb": {
           "type": "info",
           "settings": {
             "title": "Surface Material",
-            "description": "Full ABS Shell"
+            "description": "ABS Shell+PU Leather"
           }
         },
         "info_DAxiKb": {
           "type": "info",
           "settings": {
             "title": "Gross Weight / Net Weight",
-            "description": "205 lbs / 165.3 lbs (93 kg / 75 kg)"
-          }
-        },
-        "info_PdA477": {
-          "type": "info",
-          "settings": {
-            "title": "Thai Stretching Massage",
-            "description": "Yes"
-          }
-        },
-        "info_tHrtq8": {
-          "type": "info",
-          "settings": {
-            "title": "Health Check Function",
-            "description": "Yes"
+            "description": "121.3/143.3 lbs or 55/65KG"
           }
         },
         "info_JXkENx": {
           "type": "info",
           "settings": {
             "title": "LED Light",
-            "description": "Yes"
-          }
-        },
-        "info_3zRBhN": {
-          "type": "info",
-          "settings": {
-            "title": "Precise Body Scanning",
             "description": "Yes"
           }
         },
@@ -197,70 +169,42 @@
           "type": "info",
           "settings": {
             "title": "Upright Dimensions",
-            "description": "61.8 inches x 29.9 inches x 43.3 inches (157 cm x 76 cm x 110 cm)"
-          }
-        },
-        "info_3RP4UY": {
-          "type": "info",
-          "settings": {
-            "title": "Recline Dimensions",
-            "description": "70.9 inches x 29.9 inches x 32.7 inches (180 cm x 76 cm 83 cm)"
-          }
-        },
-        "info_Fimmfh": {
-          "type": "info",
-          "settings": {
-            "title": "Packing Dimensions",
-            "description": "53.2 inches x 29.9 inches x 44.5 inches (135 cm x 76 cm x 113 cm)"
+            "description": "45.3\" x 29.5\" x 41.7\" or 115*75*106CM"
           }
         },
         "info_e8F3F8": {
           "type": "info",
           "settings": {
-            "title": "Packing Dimensions with Pallets",
-            "description": "53.2 inches x 29.9 inches x 48.4 inches (135 cm x 76 cm x 123 cm)"
+            "title": "New Packing size",
+            "description": "45.3\" x 29.9\" x 40.6\" or 115*76*103CM"
           }
         },
-        "info_P7GDRn": {
+        "info_r3WXaY": {
           "type": "info",
           "settings": {
-            "title": "Minimum Doorway Width",
-            "description": "31.9 inches (81 cm)"
+            "title": "New Packing size add pallet",
+            "description": "45.3\" x 29.9\" x 44.5\" or 115*76*113CM"
           }
         },
-        "info_DPNBzi": {
+        "info_yH7FTw": {
           "type": "info",
           "settings": {
-            "title": "Rated Power / Plug",
-            "description": "110V, 135W"
+            "title": "Bare Metal Entry width",
+            "description": "29.5\" or 75CM"
           }
         },
-        "info_DnVXJe": {
+        "info_MgYCPQ": {
           "type": "info",
           "settings": {
-            "title": "Maximum Weight Capacity",
-            "description": "374.8 lbs (170 kg) "
+            "title": "Rated power/Plug",
+            "description": "110V 90W"
           }
         },
-        "info_4zcXFe": {
+        "info_PNR8cX": {
           "type": "info",
           "settings": {
-            "title": "Recommended Height",
-            "description": "59 inches - 76.7 inches (150 cm - 195 cm)"
-          }
-        },
-        "info_txtFfK": {
-          "type": "info",
-          "settings": {
-            "title": "Wall Hugging / Space Saving",
-            "description": "Yes - 4.7 inches (12 cm) "
-          }
-        },
-        "info_6WBgHV": {
-          "type": "info",
-          "settings": {
-            "title": "Intelligent Voice Feedback",
-            "description": "Yes"
+            "title": "Colors",
+            "description": "Black / White"
           }
         }
       },
@@ -271,7 +215,6 @@
         "info_Q9QKi6",
         "info_UmaVH7",
         "info_KbGWPC",
-        "info_d3JDW8",
         "info_y7rihr",
         "info_pFm9pc",
         "info_YGDLfy",
@@ -281,22 +224,15 @@
         "info_KKgHkd",
         "info_LVGHVb",
         "info_DAxiKb",
-        "info_PdA477",
-        "info_tHrtq8",
         "info_JXkENx",
-        "info_3zRBhN",
         "info_HtkXe4",
         "info_aU8rF6",
         "info_ihhiiU",
-        "info_3RP4UY",
-        "info_Fimmfh",
         "info_e8F3F8",
-        "info_P7GDRn",
-        "info_DPNBzi",
-        "info_DnVXJe",
-        "info_4zcXFe",
-        "info_txtFfK",
-        "info_6WBgHV"
+        "info_r3WXaY",
+        "info_yH7FTw",
+        "info_MgYCPQ",
+        "info_PNR8cX"
       ],
       "settings": {
         "details_title": "Description",
