@@ -78,6 +78,39 @@
             "question": "Is my payment information secure?",
             "answer": "<p>Yes, we use industry-standard encryption and security measures to protect your payment information. Your privacy and security are our top priorities.</p>"
           }
+        },
+        "title_rUh6q4": {
+          "type": "title",
+          "settings": {
+            "heading": "Shipping and Delivery"
+          }
+        },
+        "faq_M9aedG": {
+          "type": "faq",
+          "settings": {
+            "question": "How much does shipping cost?",
+            "answer": "<p>We offer free standard shipping on all massage chair orders within the continental United States. Expedited shipping and White Glove Delivery services are available for an additional fee.</p>"
+          }
+        },
+        "faq_HNf8C4": {
+          "type": "faq",
+          "settings": {
+            "question": "How long will it take to receive my order?",
+            "answer": "<p>Standard shipping typically takes 5-10 business days. Expedited shipping times vary based on location and availability. You will receive a tracking number once your order has shipped.</p>"
+          }
+        },
+        "faq_witBkT": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "<p>Currently, we only ship to addresses within the continental United States. We do not ship to Alaska, Hawaii, U.S. territories, or internationally at this time.</p>"
+          }
+        },
+        "title_68NNw9": {
+          "type": "title",
+          "settings": {
+            "heading": "Returns and Warranty"
+          }
         }
       },
       "block_order": [
@@ -88,7 +121,12 @@
         "title_YwPDq8",
         "faq_FKgfdR",
         "faq_Ktw8cf",
-        "faq_9cKdGh"
+        "faq_9cKdGh",
+        "title_rUh6q4",
+        "faq_M9aedG",
+        "faq_HNf8C4",
+        "faq_witBkT",
+        "title_68NNw9"
       ],
       "settings": {
       }
