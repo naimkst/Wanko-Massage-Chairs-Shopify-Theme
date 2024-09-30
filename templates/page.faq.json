@@ -51,13 +51,44 @@
             "question": "Are your massage chairs easy to assemble?",
             "answer": "<p>Most of our massage chairs come pre-assembled, while some models may require minimal assembly. We also offer White Glove Delivery service for an additional fee, which includes delivery, assembly, and removal of packaging materials.</p>"
           }
+        },
+        "title_YwPDq8": {
+          "type": "title",
+          "settings": {
+            "heading": "Ordering and Payment"
+          }
+        },
+        "faq_FKgfdR": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I place an order?",
+            "answer": "<p>You can place an order directly through our website. Simply add the desired items to your cart and follow the checkout process. If you need assistance, our customer service team is here to help.</p>"
+          }
+        },
+        "faq_Ktw8cf": {
+          "type": "faq",
+          "settings": {
+            "question": "What payment methods do you accept?",
+            "answer": "<p>We accept major credit cards (Visa, MasterCard, American Express, Discover), PayPal, Amazon Pay, and other secure payment methods. For more information, please refer to our Payment Options page.</p>"
+          }
+        },
+        "faq_9cKdGh": {
+          "type": "faq",
+          "settings": {
+            "question": "Is my payment information secure?",
+            "answer": "<p>Yes, we use industry-standard encryption and security measures to protect your payment information. Your privacy and security are our top priorities.</p>"
+          }
         }
       },
       "block_order": [
         "title_9DjMjT",
         "faq_iMY4yW",
         "faq_VbdHwY",
-        "faq_qb4RT9"
+        "faq_qb4RT9",
+        "title_YwPDq8",
+        "faq_FKgfdR",
+        "faq_Ktw8cf",
+        "faq_9cKdGh"
       ],
       "settings": {
       }
