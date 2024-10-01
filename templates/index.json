@@ -12,7 +12,8 @@
     "main": {
       "type": "404",
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
     },
     "hero_section_dHipPk": {
       "type": "hero-section",
@@ -53,7 +54,8 @@
         "block_TNCqBr",
         "block_ThL8U6"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "product_selling_zLbQpg": {
       "type": "product-selling",
@@ -159,7 +161,9 @@
     },
     "pagefly-home": {
       "type": "pagefly-home",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+      }
     }
   },
   "order": [
