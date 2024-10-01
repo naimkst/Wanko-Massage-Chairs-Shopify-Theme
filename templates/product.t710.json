@@ -206,6 +206,13 @@
             "title": "Colors",
             "description": "Black / White"
           }
+        },
+        "info_c8iwVB": {
+          "type": "info",
+          "settings": {
+            "title": "Mechanism",
+            "description": "Long 57.01 inches SL Track Massage from Neck to Buttocks"
+          }
         }
       },
       "block_order": [
@@ -232,7 +239,8 @@
         "info_r3WXaY",
         "info_yH7FTw",
         "info_MgYCPQ",
-        "info_PNR8cX"
+        "info_PNR8cX",
+        "info_c8iwVB"
       ],
       "settings": {
         "details_title": "Description",
