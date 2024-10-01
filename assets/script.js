@@ -406,6 +406,7 @@
 $('.addToCart').on('click', function (e) {
   e.preventDefault();
 
+  $(this).text('Adding...');
   var productId = $('#variantId').val();
   var quantity = $('#quantity').val();
 
@@ -430,11 +431,10 @@ $('.addToCart').on('click', function (e) {
           updateCartDisplay(cartData);
         });
       $('.mini-cart-content').addClass('mini-cart-content-toggle');
-
-      $('.addToCart').css('display', 'block');
-      $('.loadingBtn').css('display', 'none');
+      $(this).text('Add to cart');
     },
     error: function (error) {
+      $(this).text('Add to cart');
       console.error('Error adding item to cart:', error);
     },
   });
