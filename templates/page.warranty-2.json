@@ -11,11 +11,26 @@
   "sections": {
     "main": {
       "type": "404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "page_hero_9rQAkA": {
+      "type": "page-hero",
+      "settings": {
+        "title": "Warranty Registration",
+        "page_image": "shopify://shop_images/8_44c96e32-1091-4eb4-b377-8265a0f8e82e.jpg"
+      }
+    },
+    "warranty_form_DjcaAB": {
+      "type": "warranty-form",
       "settings": {
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "page_hero_9rQAkA",
+    "warranty_form_DjcaAB"
   ]
 }
