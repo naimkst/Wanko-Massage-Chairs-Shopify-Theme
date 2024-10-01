@@ -22,8 +22,8 @@
         "page_image": "shopify://shop_images/8_44c96e32-1091-4eb4-b377-8265a0f8e82e.jpg"
       }
     },
-    "warranty_form_DjcaAB": {
-      "type": "warranty-form",
+    "contact_form_Uf94HV": {
+      "type": "contact-form",
       "settings": {
       }
     }
@@ -31,6 +31,6 @@
   "order": [
     "main",
     "page_hero_9rQAkA",
-    "warranty_form_DjcaAB"
+    "contact_form_Uf94HV"
   ]
 }
