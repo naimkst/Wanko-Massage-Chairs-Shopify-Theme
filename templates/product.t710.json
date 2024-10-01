@@ -148,7 +148,7 @@
           "type": "info",
           "settings": {
             "title": "Gross Weight / Net Weight",
-            "description": "121.3/143.3 lbs or 55/65KG"
+            "description": "163.1 lbs / 136.7 lbs (74 kg / 62 kg)"
           }
         },
         "info_JXkENx": {
@@ -176,38 +176,59 @@
           "type": "info",
           "settings": {
             "title": "Upright Dimensions",
-            "description": "45.3\" x 29.5\" x 41.7\" or 115*75*106CM"
+            "description": "57.1 inches x 29.9 inches x 41.7 inches (145 cm x 76 cm x 106 cm)"
           }
         },
         "info_e8F3F8": {
           "type": "info",
           "settings": {
-            "title": "New Packing size",
-            "description": "45.3\" x 29.9\" x 40.6\" or 115*76*103CM"
+            "title": "Packing Dimensions",
+            "description": "46.5 inches x 29.9 inches x 41.3 inches (118 cm x 76 cm x 105 cm)"
           }
         },
         "info_r3WXaY": {
           "type": "info",
           "settings": {
-            "title": "New Packing size add pallet",
-            "description": "45.3\" x 29.9\" x 44.5\" or 115*76*113CM"
+            "title": "Packing Dimensions with Pallets",
+            "description": "46.5 inches x 29.9 inches x 45.3 inches (118 cm x 76 cm x 115 cm)"
           }
         },
         "info_yH7FTw": {
           "type": "info",
           "settings": {
-            "title": "Bare Metal Entry width",
-            "description": "29.5\" or 75CM"
+            "title": "Minimum Doorway",
+            "description": "31.9 inches (81 cm)"
           }
         },
         "info_MgYCPQ": {
           "type": "info",
           "settings": {
-            "title": "Rated power/Plug",
-            "description": "110V 90W"
+            "title": "Rated Power / Plug",
+            "description": "110V, 100W"
           }
         },
         "info_PNR8cX": {
+          "type": "info",
+          "settings": {
+            "title": "Maximum Weight Capacity",
+            "description": "330.7 lbs (150 kg) "
+          }
+        },
+        "info_NEWdU4": {
+          "type": "info",
+          "settings": {
+            "title": "Recommended Height",
+            "description": "59 inches - 74.8 inches (150 cm - 190 cm)"
+          }
+        },
+        "info_LVYFwX": {
+          "type": "info",
+          "settings": {
+            "title": "Wall Hugging / Space Saving",
+            "description": "Yes - 4.7 inches (12 cm)"
+          }
+        },
+        "info_6nqYJd": {
           "type": "info",
           "settings": {
             "title": "Colors",
@@ -240,7 +261,10 @@
         "info_r3WXaY",
         "info_yH7FTw",
         "info_MgYCPQ",
-        "info_PNR8cX"
+        "info_PNR8cX",
+        "info_NEWdU4",
+        "info_LVYFwX",
+        "info_6nqYJd"
       ],
       "settings": {
         "details_title": "Description",
