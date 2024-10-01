@@ -12,8 +12,7 @@
     "main": {
       "type": "404",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "hero_section_dHipPk": {
       "type": "hero-section",
@@ -54,8 +53,7 @@
         "block_TNCqBr",
         "block_ThL8U6"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "product_selling_zLbQpg": {
       "type": "product-selling",
@@ -158,6 +156,10 @@
         "section_title": "Your Satisfaction Is Our Priority",
         "section_subtitle": "Shopping with confidence"
       }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {}
     }
   },
   "order": [
@@ -166,6 +168,7 @@
     "product_selling_zLbQpg",
     "warranty_section_NVttFH",
     "about_section_VgzTGy",
-    "feature_section_rQ7r6D"
+    "feature_section_rQ7r6D",
+    "pagefly-home"
   ]
 }
