@@ -1,0 +1,426 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "single-product",
+      "blocks": {
+        "info_mBm6pq": {
+          "type": "info",
+          "settings": {
+            "title": "Product Details",
+            "description": "<ul><li>SL Track Massage Chair full body: Experience ultimate relaxation with a luxurious 57.08 Inches SL Long Track 3D Massage chair from Neck to Buttocks track Vario Motion Mechanism with foot extension. Enjoy the unparalleled relaxation with Dual Heating Lower Back technology and Thai Stretching Massage, ensuring deep rejuvenation and comfort. (Simple to assemble and easy to operate)</li><li>Therapeutic Heat and Customized Comfort: Enjoy targeted relief with Dual Heating Lower Back and Automatic Calf Telescopic features. Find personalized comfort shiatsu foot massager chair with heat with Adjustable Foot & Calf settings and Tri-Action Sole Roller Massage targeting pressure points.</li><li>6 Massage Techniques with advanced Technology: Enjoy cutting-edge technology with 6 Unique Massage Techniques in our massage recliner chair and 12 Auto Programs. Control your experience effortlessly with a user-friendly 7\" Wired Full Touch-Screen Control.</li><li>Space-Saving Design and comfort: With our Zero gravity massage chair, maximize your space with Wall Hugging feature and indulge in One Touch Zero Gravity Position for ultimate relaxation. Experience comprehensive Airbag Massage within a compact design, just 4.72Inches from the wall.</li><li>Smart AI Features: Experience intelligent technology in our reclining chair with AI Voice Recognition, Heart Rate Detection, and Precise Body Scanning for tailored comfort. Stay connected with Quick Action Controls integrated into the armrest for a spa-like experience.</li><li>Available in one color: Black</li></ul>",
+            "icon": "shopify://shop_images/file-dots.svg"
+          }
+        },
+        "info_xLcz4J": {
+          "type": "info",
+          "settings": {
+            "title": "Product Details",
+            "description": "<ul><li>Shipping: </li></ul><p>Orders are processed within 1-3 business days. Once your order is processed, you will receive a confirmation email with tracking information. Full <a href=\"https://wankomassagechairs.com/pages/shipping-policy\" target=\"_self\">Shipping Policy</a></p><ul><li>Return: </li></ul><p>You may return your massage chair within 30 days of the delivery date for a refund or exchange. Full <a href=\"https://wankomassagechairs.com/pages/return-policy-1\" target=\"_self\">Return Policy</a></p>",
+            "icon": "shopify://shop_images/truck_1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "info_mBm6pq",
+        "info_xLcz4J"
+      ],
+      "settings": {
+      }
+    },
+    "product_description_YBfQkj": {
+      "type": "product-description",
+      "blocks": {
+        "info_zT8mBe": {
+          "type": "info",
+          "settings": {
+            "title": "Model",
+            "description": "T614"
+          }
+        },
+        "info_KRR847": {
+          "type": "info",
+          "settings": {
+            "title": "Dimensions/Mechanism",
+            "description": "SKU"
+          }
+        },
+        "info_Fn3RKq": {
+          "type": "info",
+          "settings": {
+            "title": "Massage Roller Material",
+            "description": "ABS"
+          }
+        },
+        "info_Q9QKi6": {
+          "type": "info",
+          "settings": {
+            "title": "Foot Massage",
+            "description": "2 sets of massage rollers for feet"
+          }
+        },
+        "info_UmaVH7": {
+          "type": "info",
+          "settings": {
+            "title": "Controller",
+            "description": "7-inch touch screen"
+          }
+        },
+        "info_KbGWPC": {
+          "type": "info",
+          "settings": {
+            "title": "Additional Characteristics",
+            "description": "Quick control panel+USB Charge / Wireless charging"
+          }
+        },
+        "info_y7rihr": {
+          "type": "info",
+          "settings": {
+            "title": "Massage program",
+            "description": "6 automatic modes"
+          }
+        },
+        "info_pFm9pc": {
+          "type": "info",
+          "settings": {
+            "title": "Airbag Coverage (Full body)",
+            "description": "Shoulders/Arms/Calf/Feet , +Upgraded thigh airbag"
+          }
+        },
+        "info_YGDLfy": {
+          "type": "info",
+          "settings": {
+            "title": "Massage Intensity",
+            "description": "Three gears adjustable"
+          }
+        },
+        "info_CXamkq": {
+          "type": "info",
+          "settings": {
+            "title": "Airbag Intensity",
+            "description": "Three gears adjustable"
+          }
+        },
+        "info_jLbYHx": {
+          "type": "info",
+          "settings": {
+            "title": "Heating Function",
+            "description": "Yes-Waist part"
+          }
+        },
+        "info_wKf8EU": {
+          "type": "info",
+          "settings": {
+            "title": "Leg Extension",
+            "description": "Retractable, 5.9\" or 15CM"
+          }
+        },
+        "info_KKgHkd": {
+          "type": "info",
+          "settings": {
+            "title": "Zero Gravity Angle",
+            "description": "Max Angle: 180-190 degree"
+          }
+        },
+        "info_LVGHVb": {
+          "type": "info",
+          "settings": {
+            "title": "Surface Material",
+            "description": "ABS Shell+PU Leather"
+          }
+        },
+        "info_DAxiKb": {
+          "type": "info",
+          "settings": {
+            "title": "Gross Weight / Net Weight",
+            "description": "121.3/143.3 lbs or 55/65KG"
+          }
+        },
+        "info_JXkENx": {
+          "type": "info",
+          "settings": {
+            "title": "LED Light",
+            "description": "Yes"
+          }
+        },
+        "info_HtkXe4": {
+          "type": "info",
+          "settings": {
+            "title": "AI English Voice",
+            "description": "Yes"
+          }
+        },
+        "info_aU8rF6": {
+          "type": "info",
+          "settings": {
+            "title": "Bluetooth Function",
+            "description": "Yes"
+          }
+        },
+        "info_ihhiiU": {
+          "type": "info",
+          "settings": {
+            "title": "Upright Dimensions",
+            "description": "45.3\" x 29.5\" x 41.7\" or 115*75*106CM"
+          }
+        },
+        "info_e8F3F8": {
+          "type": "info",
+          "settings": {
+            "title": "New Packing size",
+            "description": "45.3\" x 29.9\" x 40.6\" or 115*76*103CM"
+          }
+        },
+        "info_r3WXaY": {
+          "type": "info",
+          "settings": {
+            "title": "New Packing size add pallet",
+            "description": "45.3\" x 29.9\" x 44.5\" or 115*76*113CM"
+          }
+        },
+        "info_yH7FTw": {
+          "type": "info",
+          "settings": {
+            "title": "Bare Metal Entry width",
+            "description": "29.5\" or 75CM"
+          }
+        },
+        "info_MgYCPQ": {
+          "type": "info",
+          "settings": {
+            "title": "Rated power/Plug",
+            "description": "110V 90W"
+          }
+        },
+        "info_PNR8cX": {
+          "type": "info",
+          "settings": {
+            "title": "Colors",
+            "description": "Black / White"
+          }
+        }
+      },
+      "block_order": [
+        "info_zT8mBe",
+        "info_KRR847",
+        "info_Fn3RKq",
+        "info_Q9QKi6",
+        "info_UmaVH7",
+        "info_KbGWPC",
+        "info_y7rihr",
+        "info_pFm9pc",
+        "info_YGDLfy",
+        "info_CXamkq",
+        "info_jLbYHx",
+        "info_wKf8EU",
+        "info_KKgHkd",
+        "info_LVGHVb",
+        "info_DAxiKb",
+        "info_JXkENx",
+        "info_HtkXe4",
+        "info_aU8rF6",
+        "info_ihhiiU",
+        "info_e8F3F8",
+        "info_r3WXaY",
+        "info_yH7FTw",
+        "info_MgYCPQ",
+        "info_PNR8cX"
+      ],
+      "settings": {
+        "details_title": "Description",
+        "specifications_title": "Specifications"
+      }
+    },
+    "product_info_fV6Xmr": {
+      "type": "product-info",
+      "blocks": {
+        "block_n3aR8k": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/shield-half.svg",
+            "title": "Secure Shopping",
+            "description": "Our store uses SSL encryption to ensure your payment information is always secure",
+            "link": "#"
+          }
+        },
+        "block_zXFGq9": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/moneybag.svg",
+            "title": "Money Back",
+            "description": "We stand behind the quality of our products and offer a 30-day money-back guarantee",
+            "link": "#"
+          }
+        },
+        "block_BxmnkC": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/brand-whatsapp.svg",
+            "title": "Customer Support",
+            "description": "Our support team is available 24/7 to assist you with any questions or concerns you have",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "block_n3aR8k",
+        "block_zXFGq9",
+        "block_BxmnkC"
+      ],
+      "settings": {
+      }
+    },
+    "warranty_section_GKBAyc": {
+      "type": "warranty-section",
+      "blocks": {
+        "block_bULMMD": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/Massage_Chair_Service_section.jpg",
+            "title": "Sleek, Modern Design",
+            "description": "Discover the perfect blend of style and functionality with our sleek, modern massage chairs. Designed with contemporary aesthetics in mind, each chair is crafted to complement any home or office space. The ergonomic contours not only provide ultimate comfort but also add a touch of sophistication to your environment. Elevate your space with a chair that offers more than just relaxation its a statement piece that reflects your refined taste."
+          }
+        },
+        "block_A49PNQ": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/5_cd6cac03-fccd-4d45-a277-1a2eadd1b52d.jpg",
+            "title": "Dependable 5-Year Warranty",
+            "description": "Rest easy knowing your investment is protected with our dependable 5-year warranty. This extended coverage ensures that your massage chair continues to perform at its best, providing peace of mind for years to come. We stand behind the quality and durability of our products, and our dedicated customer support team is always ready to assist you. Enjoy relaxation with confidence, knowing that we've got you covered."
+          }
+        },
+        "block_Hhre3t": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/1-1_88d4b799-057f-4221-a13b-1944b0ea7e81.jpg",
+            "title": "Unmatched Affordability",
+            "description": "Luxury doesn't have to come with a hefty price tag. Our massage chairs deliver premium features at an affordable price, making relaxation accessible to everyone. Enjoy the same high-end benefits found in much more expensive models, without the premium cost. With our commitment to affordability, you can indulge in world-class comfort and wellness without compromising on quality or your budget."
+          }
+        }
+      },
+      "block_order": [
+        "block_bULMMD",
+        "block_A49PNQ",
+        "block_Hhre3t"
+      ],
+      "settings": {
+        "section_title": "Affordable Luxury with our Dependable 5-Year Warranty"
+      }
+    },
+    "about_feature_6bfzjB": {
+      "type": "about-feature",
+      "blocks": {
+        "block_NPAHJ9": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/7_de623607-d94f-4884-8afb-984b4091382c.jpg",
+            "title": "Fixed Point Technology",
+            "description": "Fixed-point massage chairs provide targeted relief, focusing on specific areas to deliver therapeutic benefits. Perfect for those looking to relieve pain, boost circulation, and enhance overall well-being, this chair is an ideal addition to any wellness routine. Experience precise relaxation and effective therapy with every session."
+          }
+        },
+        "block_jrTLCK": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/8_41af3d94-eb26-47a7-a6ef-58f9c4e7288c.jpg",
+            "title": "ABS Shell and PU Leather Footrest",
+            "description": "The ABS design of this massage chair ensures durability, lightweight construction, easy maintenance, and impact resistance. It enhances both performance and longevity, making it a perfect fit for home or commercial use.The PU leather offers durability, easy maintenance, and a sleek, comfortable feel. Its resistance to wear and tear makes it ideal for long-lasting use, while maintaining the luxurious look of genuine leather at a more affordable price."
+          }
+        },
+        "block_39mMiY": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/4_50f42d6a-9eee-4915-8b15-7b70b33791dc.jpg",
+            "title": "Foot Rolling Massage",
+            "description": "The foot massage rollers in this chair deliver a deeply therapeutic experience, targeting key pressure points to reduce stress and improve circulation. By providing consistent foot care, it enhances relaxation and promotes overall well-being. Whether you're looking to ease tension after a long day or support your holistic health, this foot massage feature offers the perfect solution for lasting comfort and rejuvenation."
+          }
+        },
+        "block_NLcBdi": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/4_9de28bb2-c491-447f-b1f6-996b4aefa987.jpg",
+            "title": "Calves and Feet Massage",
+            "description": "Experience ultimate relaxation with our foot and calf massage features. The airbags gently inflate and deflate around your calves and feet, delivering soothing compression to relieve tension, stiffness, and discomfort. This targeted massage helps relax tired muscles, promoting better circulation and an overall sense of well-being."
+          }
+        },
+        "block_48nRbM": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/10_dd562dd9-5a17-4eab-a721-64ac8830c917.jpg",
+            "title": "One Touch Zero Gravity",
+            "description": "This chair's Zero Gravity positioning offers a transformative massage experience by aligning your body in a way that promotes spinal decompression and improved circulation. It helps reduce pressure on joints, enhances relaxation, and maximizes the effectiveness of each massage. Additionally, the Zero Gravity feature supports better posture, stress reduction, and lymphatic drainage, making it an ideal choice for those looking to improve their overall well-being through therapeutic massage."
+          }
+        },
+        "block_QqfqYt": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/3_7818857d-373e-4342-ac40-f142992f5379.jpg",
+            "title": "Immersive Stereo Surround Speakers",
+            "description": "Experience a new level of relaxation with the Bluetooth connectivity featured in this massage chair. Enjoy the convenience of wireless audio streaming by connecting your smartphone or tablet to the chair’s speakers, allowing you to listen to your favorite music, podcasts, or relaxation sounds while indulging in a soothing massage. This customizable audio experience not only enhances your relaxation but also transforms your massage sessions into a personalized retreat. With its modern design and user-friendly features, this chair combines functionality and innovation, appealing to those who appreciate a technologically advanced approach to wellness and self-care."
+          }
+        },
+        "block_pQcGKy": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/5_e3314e18-2b46-494b-a0d8-75bbb177d18e.jpg",
+            "title": "Targeted Heating",
+            "description": "Elevate your relaxation experience with our heated massage chair, featuring targeted warmth for the lower back, waist, and calves. This soothing heat alleviates chronic pain and muscle spasms while enhancing blood circulation to promote faster healing. The combination of heat and massage reduces stress and tension, improving your overall mental well-being. Additionally, the foot rollers and airbags enhance foot health, helping to relieve swelling, pain, and fatigue. Indulge in the ultimate comfort and self-care with this luxurious massage chair."
+          }
+        },
+        "block_P6Xxpq": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/6_78275a1a-e5b8-44b0-b23a-05f81c498e57.jpg",
+            "title": "Full Body Air Massage",
+            "description": "Experience the transformative benefits of the full body airbag massage feature in our massage chair, designed to provide convenient and effective relaxation right in your home. This innovative feature helps relieve muscle tension, improve circulation, and promote overall well-being, making it a valuable addition to your self-care routine. Whether you're seeking a moment of relaxation or therapeutic relief, the airbag massage can enhance both your physical and mental health over time, ensuring you feel rejuvenated and refreshed after each session."
+          }
+        },
+        "block_a8WkpX": {
+          "type": "block",
+          "settings": {
+            "block_image": "shopify://shop_images/9_adb3bfad-ec7d-4a6b-b59e-a58eee130a33.jpg",
+            "title": "Minimum Doorway And Box Sizes",
+            "description": "Make sure to measure your doorway to confirm that the model you choose will fit seamlessly.While this chair is designed to fit through a 30\" door width, we recommend allowing an additional 2\" for easier maneuverability during installation."
+          }
+        }
+      },
+      "block_order": [
+        "block_NPAHJ9",
+        "block_jrTLCK",
+        "block_39mMiY",
+        "block_NLcBdi",
+        "block_48nRbM",
+        "block_QqfqYt",
+        "block_pQcGKy",
+        "block_P6Xxpq",
+        "block_a8WkpX"
+      ],
+      "settings": {
+        "button_text": "ORDER NOW",
+        "button_link": "shopify://products/wanko-zero-gravity-full-body-massage-chair-foot-rollers-and-heat-massage"
+      }
+    },
+    "product_selling_yXNMNc": {
+      "type": "product-selling",
+      "settings": {
+        "title": "People Who Bought This Also Like",
+        "product_collection": "massage-chairs"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_description_YBfQkj",
+    "product_info_fV6Xmr",
+    "warranty_section_GKBAyc",
+    "about_feature_6bfzjB",
+    "product_selling_yXNMNc"
+  ]
+}
