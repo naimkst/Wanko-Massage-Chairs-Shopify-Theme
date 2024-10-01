@@ -111,7 +111,7 @@
 
           <div class="col-lg-12 col-12 form-field">
             <label for="#">Purchased From <span>*</span></label>
-            <select name="contact[purchase_from]" id="">
+            <select name="contact[purchase_from]" id="field-b9444d90">
               <option value="Amazon">Amazon</option>
               <option value="Walmart">Walmart</option>
               <option value="Ebay">Ebay</option>
@@ -159,6 +159,17 @@
     </div>
   </div>
 </section>
+
+<script>
+  document.getElementById('field-b9444d90').addEventListener('change', function () {
+    var otherInput = document.getElementById('purchase_other');
+    if (this.value === 'Other') {
+      otherInput.style.display = 'block';
+    } else {
+      otherInput.style.display = 'none';
+    }
+  });
+</script>
 
 {% schema %}
 {
