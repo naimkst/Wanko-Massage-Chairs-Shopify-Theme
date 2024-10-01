@@ -3722,3 +3722,6 @@ img {
 .contact-area form .submit-area .view-cart-btn:after {
   border-radius: 0px;
 } /*# sourceMappingURL=style.css.map */
+.header-search-form input:focus {
+  color: #fff !important;
+}
