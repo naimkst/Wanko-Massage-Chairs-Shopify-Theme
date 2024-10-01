@@ -15,6 +15,13 @@
       "settings": {
       }
     },
+    "page_hero_J4xEgr": {
+      "type": "page-hero",
+      "settings": {
+        "title": "{{ collection.title }}",
+        "page_image": "shopify://shop_images/5_cd6cac03-fccd-4d45-a277-1a2eadd1b52d.jpg"
+      }
+    },
     "collection_9mn9Pa": {
       "type": "collection",
       "settings": {
@@ -23,6 +30,7 @@
   },
   "order": [
     "main",
+    "page_hero_J4xEgr",
     "collection_9mn9Pa"
   ]
 }
