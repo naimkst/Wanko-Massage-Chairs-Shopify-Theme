@@ -84,57 +84,64 @@
         "info_y7rihr": {
           "type": "info",
           "settings": {
+            "title": "Massage Technique",
+            "description": "5 Massage Techniques (Knead, Sync, Tap, Shiatsu, Knock)"
+          }
+        },
+        "info_x7UDt7": {
+          "type": "info",
+          "settings": {
             "title": "Massage program",
-            "description": "6 automatic modes"
+            "description": "6 Automatic Modes + Manual Program"
           }
         },
         "info_pFm9pc": {
           "type": "info",
           "settings": {
             "title": "Airbag Coverage (Full body)",
-            "description": "Shoulders/Arms/Calf/Feet , +Upgraded thigh airbag"
+            "description": "Shoulders, Arms, Calves, Feet"
           }
         },
         "info_YGDLfy": {
           "type": "info",
           "settings": {
             "title": "Massage Intensity",
-            "description": "Three gears adjustable"
+            "description": "Adjustable to 3 Levels"
           }
         },
         "info_CXamkq": {
           "type": "info",
           "settings": {
             "title": "Airbag Intensity",
-            "description": "Three gears adjustable"
+            "description": "Adjustable to 3 Levels"
           }
         },
         "info_jLbYHx": {
           "type": "info",
           "settings": {
             "title": "Heating Function",
-            "description": "Yes-Waist part"
+            "description": "Yes - Waist & Calves Areas"
           }
         },
         "info_wKf8EU": {
           "type": "info",
           "settings": {
             "title": "Leg Extension",
-            "description": "Retractable, 5.9\" or 15CM"
+            "description": "Retractable, 5.9 inches (15cm)"
           }
         },
         "info_KKgHkd": {
           "type": "info",
           "settings": {
             "title": "Zero Gravity Angle",
-            "description": "Max Angle: 180-190 degree"
+            "description": "Max Angle: 180-190 Degrees"
           }
         },
         "info_LVGHVb": {
           "type": "info",
           "settings": {
             "title": "Surface Material",
-            "description": "ABS Shell+PU Leather"
+            "description": "ABS Shell & PU Leather"
           }
         },
         "info_DAxiKb": {
@@ -216,6 +223,7 @@
         "info_UmaVH7",
         "info_KbGWPC",
         "info_y7rihr",
+        "info_x7UDt7",
         "info_pFm9pc",
         "info_YGDLfy",
         "info_CXamkq",
