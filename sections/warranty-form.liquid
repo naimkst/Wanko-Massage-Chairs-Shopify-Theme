@@ -1,0 +1,173 @@
+<section class="contact-area warranty section-padding">
+  <div class="container">
+    <div class="wpo-contact-form-area">
+      {% form 'contact', class: 'contact-validation-active', id: 'contact-form-main' %}
+        {{ form.errors | default_errors }}
+        <div class="row">
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Your Order Number <span>*</span></label>
+            <input
+              type="text"
+              class="form-control"
+              name="contact[order_number]"
+              id="name"
+              placeholder="Enter Your Order Number *"
+            >
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Your Order Model <span>*</span></label>
+            <input
+              type="text"
+              class="form-control"
+              name="contact[order_model]"
+              id="name"
+              placeholder="Enter Your Order Model *"
+            >
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Your Serial Number <span>*</span></label>
+            <input
+              type="text"
+              class="form-control"
+              name="contact[serial_number]"
+              id="name"
+              placeholder="Enter Your Serial Number *"
+            >
+          </div>
+          <div class="col-lg-6 col-12 form-field">
+            <label for="#">First Name <span>*</span></label>
+            <input
+              type="text"
+              class="form-control"
+              name="contact[first_name]"
+              id="name"
+              placeholder="Enter First Name *"
+            >
+          </div>
+          <div class="col-lg-6 col-12 form-field">
+            <label for="#">Last Name <span>*</span></label>
+            <input
+              type="text"
+              class="form-control"
+              name="contact[last_name]"
+              id="name"
+              placeholder="Enter Last Name *"
+            >
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Company Name</label>
+            <input
+              type="text"
+              class="form-control"
+              name="contact[company_name]"
+              id="name"
+              placeholder="Company Name *"
+            >
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Street Address <span>*</span></label>
+            <input
+              type="text"
+              class="form-control"
+              name="contact[street_address]"
+              id="name"
+              placeholder="Enter Street Address *"
+            >
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">City, State <span>*</span></label>
+            <input
+              type="text"
+              class="form-control"
+              name="contact[city_state]"
+              id="name"
+              placeholder="City, State *"
+            >
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Zip Code <span>*</span></label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Zip Code *">
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Email <span>*</span></label>
+            <input
+              type="email"
+              class="form-control"
+              name="contact[email]"
+              id="email"
+              placeholder="Your Email*"
+            >
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Phone Number<span>*</span></label>
+            <input
+              type="text"
+              class="form-control"
+              name="contact[phone]"
+              id="phone"
+              placeholder="Your Phone*"
+            >
+          </div>
+
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Purchased From <span>*</span></label>
+            <select name="contact[purchase_from]" id="">
+              <option value="Amazon">Amazon</option>
+              <option value="Walmart">Walmart</option>
+              <option value="Ebay">Ebay</option>
+              <option value="Wayfair">Wayfair</option>
+              <option value="www.wankomassagechairs.com">www.wankomassagechairs.com</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Purchased Other<span>*</span></label>
+            <input
+              type="text"
+              class="form-control"
+              name="contact[purchase_other]"
+              id="purchase_other"
+              placeholder="Purchased Other*"
+            >
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Date Of Purchase <span>*</span></label>
+            <input type="date" class="form-control" name="contact[purchase_date]" id="date">
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <label for="#">Date Of Delivery <span>*</span></label>
+            <input type="date" class="form-control" name="contact[delivery_date]" id="date">
+          </div>
+          <div class="col-lg-12 col-12 fullwidth form-field">
+            <label for="#">Message <span>*</span></label>
+            <textarea
+              class="form-control"
+              name="contact[message]"
+              id="note"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+        </div>
+        <div class="submit-area">
+          <button type="submit" class="theme-btn">REGISTER WARRANTY</button>
+        </div>
+
+        {% if form.posted_successfully? %}
+          <p class="mt-2 text-center">Thanks for contacting us. We'll get back to you as soon as possible.</p>
+        {% endif %}
+      {% endform %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Warranty Form",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Warranty Form"
+    }
+  ]
+}
+{% endschema %}
