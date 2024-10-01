@@ -9,13 +9,22 @@
 */
 {
   "sections": {
+    "page_hero_iJx7ab": {
+      "type": "page-hero",
+      "settings": {
+        "title": "Search",
+        "page_image": "shopify://shop_images/1-1_88d4b799-057f-4221-a13b-1944b0ea7e81.jpg"
+      }
+    },
     "main": {
       "type": "search",
       "settings": {
+        "title": "Our Massage Chair Collection"
       }
     }
   },
   "order": [
+    "page_hero_iJx7ab",
     "main"
   ]
 }
