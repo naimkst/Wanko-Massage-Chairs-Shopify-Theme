@@ -2785,7 +2785,7 @@ img {
 .product-wrap .product-item .product-info h2 {
   font-size: 18px;
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
   text-transform: capitalize;
   font-weight: 700;
   line-height: 1.32em;
@@ -3312,6 +3312,7 @@ img {
 .features-section.style-2 {
   background: #08193a;
   padding-bottom: 70px;
+  margin-bottom: 100px;
 }
 .features-section.style-2 .features-item {
   text-align: center;
