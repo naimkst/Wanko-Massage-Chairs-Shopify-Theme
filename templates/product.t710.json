@@ -46,11 +46,18 @@
             "description": "T710"
           }
         },
+        "info_c8iwVB": {
+          "type": "info",
+          "settings": {
+            "title": "Mechanism",
+            "description": "Long 57.01 inches SL Track Massage from Neck to Buttocks"
+          }
+        },
         "info_KRR847": {
           "type": "info",
           "settings": {
-            "title": "Dimensions/Mechanism",
-            "description": "SKU"
+            "title": "Massage Roller Material",
+            "description": "Medical Silicone"
           }
         },
         "info_Fn3RKq": {
@@ -206,17 +213,11 @@
             "title": "Colors",
             "description": "Black / White"
           }
-        },
-        "info_c8iwVB": {
-          "type": "info",
-          "settings": {
-            "title": "Mechanism",
-            "description": "Long 57.01 inches SL Track Massage from Neck to Buttocks"
-          }
         }
       },
       "block_order": [
         "info_zT8mBe",
+        "info_c8iwVB",
         "info_KRR847",
         "info_Fn3RKq",
         "info_Q9QKi6",
@@ -239,8 +240,7 @@
         "info_r3WXaY",
         "info_yH7FTw",
         "info_MgYCPQ",
-        "info_PNR8cX",
-        "info_c8iwVB"
+        "info_PNR8cX"
       ],
       "settings": {
         "details_title": "Description",
