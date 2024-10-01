@@ -432,11 +432,11 @@ $('.addToCart').on('click', function (e) {
         });
       $('.mini-cart-content').addClass('mini-cart-content-toggle');
       $(this).text('Add to cart');
-    },
+    }.bind(this),
     error: function (error) {
       $(this).text('Add to cart');
       console.error('Error adding item to cart:', error);
-    },
+    }.bind(this),
   });
 });
 // Slider product Add to Cart functionality
