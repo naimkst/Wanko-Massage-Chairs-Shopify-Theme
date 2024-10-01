@@ -1,0 +1,43 @@
+<section class="contact-area section-padding">
+  <div class="container">
+    <div class="wpo-contact-form-area">
+      {% form 'contact', class: 'contact-validation-active', id: 'contact-form-main' %}
+        {{ form.errors | default_errors }}
+
+        <div class="row">
+          <div class="col-lg-6 col-12 form-field">
+            <input type="text" class="form-control" name="contact[name]" id="name" placeholder="Your Name*">
+          </div>
+          <div class="col-lg-6 col-12 form-field">
+            <input type="email" class="form-control" name="contact[email]" id="email" placeholder="Your Email*">
+          </div>
+          <div class="col-lg-12 col-12 form-field">
+            <input type="text" class="form-control" name="contact[phone]" id="phone" placeholder="Your Phone*">
+          </div>
+          <div class="col-lg-12 col-12 fullwidth form-field">
+            <textarea class="form-control" name="contact[message]" id="note" placeholder="Comment..."></textarea>
+          </div>
+        </div>
+        <div class="submit-area">
+          <button type="submit" class="theme-btn">Send</button>
+        </div>
+
+        {% if form.posted_successfully? %}
+          <p class="mt-2 text-center">Thanks for contacting us. We'll get back to you as soon as possible.</p>
+        {% endif %}
+      {% endform %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Contact Form",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Contact Form"
+    }
+  ]
+}
+{% endschema %}
