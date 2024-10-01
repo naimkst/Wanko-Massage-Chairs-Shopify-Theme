@@ -1,0 +1,42 @@
+<section class="product-selling-section section-padding">
+  <div class="product-wrap">
+    <div class="container">
+      <div class="row">
+        {%- for product in collections %}
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <div class="product-item wow fadeInUp" data-wow-duration="1000ms">
+              <div class="product-image">
+                <img src="{{ product.featured_image | image_url: width: 700 }}" width="" height="" alt="">
+              </div>
+              <div class="product-info">
+                <h2>
+                  <a href="{{ product.url }}">{{ product.title }}</a>
+                </h2>
+
+                <a
+                  href="#"
+                  class="theme-btn sliderAddToCart"
+                  data-itemid="{{ product.variants.first.id }}"
+                  data-currency="{{ cart.currency.symbol -}}"
+                  >Add to cart</a
+                >
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Collection Section",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Collection Section"
+    }
+  ]
+}
+{% endschema %}
