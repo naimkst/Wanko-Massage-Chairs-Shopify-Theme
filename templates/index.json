@@ -158,6 +158,12 @@
         "section_title": "Your Satisfaction Is Our Priority",
         "section_subtitle": "Shopping with confidence"
       }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "disabled": true,
+      "settings": {
+      }
     }
   },
   "order": [
@@ -166,6 +172,7 @@
     "product_selling_zLbQpg",
     "warranty_section_NVttFH",
     "about_section_VgzTGy",
-    "feature_section_rQ7r6D"
+    "feature_section_rQ7r6D",
+    "pagefly-home"
   ]
 }
