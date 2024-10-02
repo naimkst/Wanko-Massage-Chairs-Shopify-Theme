@@ -3725,3 +3725,11 @@ img {
 .header-search-form input:focus {
   color: #fff !important;
 }
+.downloadManual a {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  color: #000;
+  margin-top: 20px;
+}

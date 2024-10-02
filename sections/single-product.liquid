@@ -14,12 +14,12 @@
             {% for media in product.media %}
               {% if media.media_type == 'image' %}
                 <div class="item">
-                  <img src="{{ media.src | image_url: width: 1920  }}" alt="" width="" height="">
+                  <img id="prdImg" src="{{ media.src | image_url: width: 1920  }}" alt="" width="" height="">
                 </div>
               {% endif %}
             {% endfor %}
           </div>
-          <div class="product-thumbnil-active  owl-carousel">
+          <div class="product-thumbnil-active owl-carousel">
             {% for media in product.media %}
               {% if media.media_type == 'image' %}
                 <div class="item">
@@ -137,6 +137,14 @@
               {% endfor %}
             </div>
           </div>
+
+          {% comment %}
+            <div class="downloadManual">
+              <a href="{{ product.metafields.custom.download.value |  file_url }}" download
+                ><img src="{{ 'file-download.svg' | asset_url }}" alt="" width="" height="">Download Manual</a
+              >
+            </div>
+          {% endcomment %}
         </div>
       </div>
     </div>
@@ -185,6 +193,11 @@
 
         // Find the selected variant
         var selectedVariant = product.variants.find((variant) => variant.id === parseInt(variantId));
+        var prdImage = selectedVariant?.featured_image
+          ? selectedVariant.featured_image.src
+          : product.featured_image.src;
+
+        $('#prdImg').attr('src', prdImage);
 
         if (selectedVariant) {
           console.log('Selected Variant Price:', selectedVariant.price / 100);
