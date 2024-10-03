@@ -11,9 +11,9 @@
               <div class="product-image">
                 <img
                   src="{{ product.featured_image |  image_url: width: 700 }}"
-                  width="{{ product.featured_image.alt }}"
+                  width=""
                   height=""
-                  alt=""
+                  alt="{{ product.featured_image.alt }}"
                 >
               </div>
               <div class="product-info">
