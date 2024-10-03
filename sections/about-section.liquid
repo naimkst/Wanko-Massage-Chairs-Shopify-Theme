@@ -4,7 +4,12 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="benefits-img wow fadeInLeftSlow" data-wow-duration="1400ms">
-            <img src="{{ section.settings.section_image |  image_url: width: 900 }}" alt="" width="" height="">
+            <img
+              src="{{ section.settings.section_image |  image_url: width: 900 }}"
+              alt="{{ section.settings.section_image.alt }}"
+              width=""
+              height=""
+            >
           </div>
         </div>
         <div class="col-lg-6">

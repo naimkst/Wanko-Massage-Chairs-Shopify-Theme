@@ -17,7 +17,13 @@
                 <div class="col-lg-6 col-sm-6 col-12">
                   <div class="features-item wow fadeInUp" data-wow-duration="1000ms">
                     {% comment %} <i class="fa fa-credit-card-alt" aria-hidden="true"></i> {% endcomment %}
-                    <img class="blockImg" src="{{ block.settings.block_image | image_url: width: 100 }}" alt="" width="" height="">
+                    <img
+                      class="blockImg"
+                      src="{{ block.settings.block_image | image_url: width: 100 }}"
+                      alt="{{ block.settings.block_image.alt }}"
+                      width=""
+                      height=""
+                    >
                     <h3>{{ block.settings.title }}</h3>
                     <p>{{ block.settings.description }}</p>
                   </div>

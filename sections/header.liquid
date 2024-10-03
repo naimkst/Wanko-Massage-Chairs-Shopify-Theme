@@ -18,11 +18,15 @@
             <div class="navbar-header">
               {% if section.settings.logo != blank %}
                 <a class="navbar-brand" href="/"
-                  ><img src="{{ section.settings.logo |  image_url: width: 400 }}" width="" height="" alt="logo"
+                  ><img
+                    src="{{ section.settings.logo |  image_url: width: 400 }}"
+                    width=""
+                    height="{{ section.settings.logo.alt }}"
+                    alt="logo"
                 ></a>
               {% else %}
                 <a class="navbar-brand" href="/"
-                  ><img src="{{ 'logo.png' | asset_url }}" alt="logo" width="" height=""
+                  ><img src="{{ 'logo.png' | asset_url }}" alt="logo" width="Logo" height=""
                 ></a>
               {% endif %}
             </div>
@@ -113,7 +117,7 @@
                             <a href="{{ item.url }}"
                               ><img
                                 src="{{ item.image |  image_url: width: 300  }}"
-                                alt=""
+                                alt="{{ item.image.alt }}"
                                 width=""
                                 height=""
                             ></a>

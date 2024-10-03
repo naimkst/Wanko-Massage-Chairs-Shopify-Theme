@@ -16,7 +16,12 @@
             <div class="about-inner-img">
               {% for block in section.blocks %}
                 <div class="ab-image-item">
-                  <img src="{{block.settings.item_image | image_url: width: 600 }}" alt="" width="" height="">
+                  <img
+                    src="{{ block.settings.item_image | image_url: width: 600 }}"
+                    alt="{{ block.settings.item_image.alt }}"
+                    width=""
+                    height=""
+                  >
                   <div class="b-text">
                     <span>{{ block.settings.item_title }}</span>
                   </div>

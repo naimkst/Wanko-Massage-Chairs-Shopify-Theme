@@ -4,7 +4,12 @@
       {% for block in section.blocks %}
         <div class="about-features-item">
           <div class="about-features-img">
-            <img src="{{ block.settings.block_image |  image_url: width: 900 }}" alt="" width="" height="">
+            <img
+              src="{{ block.settings.block_image |  image_url: width: 900 }}"
+              alt="{{ block.settings.block_image.alt }}"
+              width=""
+              height=""
+            >
           </div>
           <div class="about-features-text wow fadeInUp" data-wow-duration="1400ms">
             <h2>{{ block.settings.title }}</h2>
