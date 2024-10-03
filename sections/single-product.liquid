@@ -149,10 +149,6 @@
             </div>
           </div>
 
-          <script>
-            console.log("=======",{{ product.metafields.custom.download | json }});
-          </script>
-
           {% if product.metafields.custom.download %}
             <div class="downloadManual">
               <a href="{{ product.metafields.custom.download | file_url }}" download target="_blank"
