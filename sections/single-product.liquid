@@ -149,13 +149,17 @@
             </div>
           </div>
 
-          {% comment %}
+          <script>
+            console.log("=======",{{ product.metafields.custom.download | json }});
+          </script>
+
+          {% if product.metafields.custom.download %}
             <div class="downloadManual">
-              <a href="{{ product.metafields.custom.download.value |  file_url }}" download
+              <a href="{{ product.metafields.custom.download | file_url }}" download target="_blank"
                 ><img src="{{ 'file-download.svg' | asset_url }}" alt="" width="" height="">Download Manual</a
               >
             </div>
-          {% endcomment %}
+          {% endif %}
         </div>
       </div>
     </div>
