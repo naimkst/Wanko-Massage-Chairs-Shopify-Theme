@@ -23,8 +23,8 @@
         "info_xLcz4J": {
           "type": "info",
           "settings": {
-            "title": "Product Details",
-            "description": "<ul><li>Shipping: </li></ul><p>Orders are processed within 1-3 business days. Once your order is processed, you will receive a confirmation email with tracking information. Full <a href=\"https://wankomassagechairs.com/pages/shipping-policy\" target=\"_self\">Shipping Policy</a></p><ul><li>Return: </li></ul><p>You may return your massage chair within 30 days of the delivery date for a refund or exchange. Full <a href=\"https://wankomassagechairs.com/pages/return-policy-1\" target=\"_self\">Return Policy</a></p>",
+            "title": "Shipping & Returns",
+            "description": "<ul><li>Shipping: </li></ul><p>Orders are processed within 1-3 business days. Once your order is processed, you will receive a confirmation email with tracking information. Full <a href=\"https://wankomassagechairs.com/pages/shipping-policy\" target=\"_self\">Shipping Policy</a></p><ul><li>Returns: </li></ul><p>You may return your massage chair within 30 days of the delivery date for a refund or exchange. Full <a href=\"https://wankomassagechairs.com/pages/return-policy-1\" target=\"_self\">Return Policy</a></p>",
             "icon": "shopify://shop_images/truck_1.svg"
           }
         }
