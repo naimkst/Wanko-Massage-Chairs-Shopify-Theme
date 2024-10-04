@@ -23,10 +23,11 @@
                     width=""
                     height="{{ section.settings.logo.alt }}"
                     alt="logo"
+                    loading="lazy"
                 ></a>
               {% else %}
                 <a class="navbar-brand" href="/"
-                  ><img src="{{ 'logo.png' | asset_url }}" alt="logo" width="Logo" height=""
+                  ><img src="{{ 'logo.png' | asset_url }}" alt="logo" width="Logo" height="" loading="lazy"
                 ></a>
               {% endif %}
             </div>
@@ -120,6 +121,7 @@
                                 alt="{{ item.image.alt }}"
                                 width=""
                                 height=""
+                                loading="lazy"
                             ></a>
                           </div>
                           <div class="mini-cart-item-des">

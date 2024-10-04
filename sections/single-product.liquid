@@ -20,6 +20,7 @@
                     alt="{{ media.srca.alt }}"
                     width=""
                     height=""
+                    loading="lazy"
                   >
                 </div>
               {% endif %}
@@ -29,7 +30,13 @@
             {% for media in product.media %}
               {% if media.media_type == 'image' %}
                 <div class="item">
-                  <img src="{{ media.src | image_url: width: 300  }}" alt="{{ media.src.alt }}" width="" height="">
+                  <img
+                    src="{{ media.src | image_url: width: 300  }}"
+                    alt="{{ media.src.alt }}"
+                    width=""
+                    height=""
+                    loading="lazy"
+                  >
                 </div>
               {% endif %}
             {% endfor %}
@@ -129,6 +136,7 @@
                           width=""
                           height=""
                           alt="{{ block.settings.icon.alt }}"
+                          loading="lazy"
                         >
                         {{ block.settings.title }}
                       </button>
@@ -152,7 +160,8 @@
           {% if product.metafields.custom.download %}
             <div class="downloadManual">
               <a href="{{ product.metafields.custom.download | file_url }}" download target="_blank"
-                ><img src="{{ 'file-download.svg' | asset_url }}" alt="" width="" height="">Download Manual</a
+                ><img src="{{ 'file-download.svg' | asset_url }}" alt="" width="" height="" loading="lazy">Download
+                Manual</a
               >
             </div>
           {% endif %}
