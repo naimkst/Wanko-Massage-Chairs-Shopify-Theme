@@ -52,17 +52,19 @@
   <body>
     <div class="page-wrapper">
       <!-- start preloader -->
-      <div class="preloader">
-        <div class="vertical-centered-box">
-          <div class="content">
-            <div class="loader-circle"></div>
-            <div class="loader-line-mask">
-              <div class="loader-line"></div>
+      {% comment %}
+        <div class="preloader">
+          <div class="vertical-centered-box">
+            <div class="content">
+              <div class="loader-circle"></div>
+              <div class="loader-line-mask">
+                <div class="loader-line"></div>
+              </div>
+              <img src="{{ 'preloader.png' | asset_url }}" alt="perloader" width="" height="">
             </div>
-            <img src="{{ 'preloader.png' | asset_url }}" alt="perloader" width="" height="">
           </div>
         </div>
-      </div>
+      {% endcomment %}
       {% section 'header' %}
       {{ content_for_layout }}
       {% section 'footer' %}

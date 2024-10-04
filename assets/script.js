@@ -134,16 +134,16 @@
   /*------------------------------------------
         = HIDE PRELOADER
     -------------------------------------------*/
-  function preloader() {
-    if ($('.preloader').length) {
-      $('.preloader')
-        .delay(100)
-        .fadeOut(500, function () {
-          //active wow
-          wow.init();
-        });
-    }
-  }
+  // function preloader() {
+  //   if ($('.preloader').length) {
+  //     $('.preloader')
+  //       .delay(100)
+  //       .fadeOut(500, function () {
+  //         //active wow
+  //         wow.init();
+  //       });
+  //   }
+  // }
 
   /*------------------------------------------
             = Header search toggle
