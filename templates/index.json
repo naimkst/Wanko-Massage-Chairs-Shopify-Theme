@@ -1,19 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "404",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "hero_section_dHipPk": {
       "type": "hero-section",
@@ -26,6 +25,16 @@
             "hero_description": "Discover sleek, affordable massage chairs with a 5-year warranty. Enjoy an exclusive 15% discount throughout October!",
             "hero_button_text": "Shop Now",
             "hero_button_Link": "shopify://products/wanko-sl-track-zero-gravity-full-body-recliner-massage-chair-black"
+          }
+        },
+        "block_YJLkVM": {
+          "type": "block",
+          "settings": {
+            "hero_background_image": "shopify://shop_images/Valentines-Day-baniere_wanko.png",
+            "hero_title": "Launching Comfort This Labor Day!",
+            "hero_description": "Elevate your relaxation with sleek design, affordable prices, and a 5-year warranty. Don’t miss our Labor Day offers!",
+            "hero_button_text": "Get Yours Today",
+            "hero_button_Link": ""
           }
         },
         "block_TNCqBr": {
@@ -51,11 +60,11 @@
       },
       "block_order": [
         "block_Gj8JbT",
+        "block_YJLkVM",
         "block_TNCqBr",
         "block_ThL8U6"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "product_selling_zLbQpg": {
       "type": "product-selling",
@@ -162,8 +171,7 @@
     "pagefly-home": {
       "type": "pagefly-home",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
