@@ -1,6 +1,40 @@
+{% comment %}
+  This is a custom banner section for the Dawn theme.
+{% endcomment %}
+
+<section id="banner-section-{{ section.id }}" class="banner-section">
+  {% if section.settings.banner_image %}
+    <div class="banner-image">
+      <img 
+        src="{{ section.settings.banner_image | img_url: 'xlarge' }}" 
+        alt="{{ section.settings.banner_alt_text | escape }}"
+        style="width: 100%; height: auto;"
+      />
+    </div>
+  {% endif %}
+</section>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Banner Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Banner Image"
+    },
+    {
+      "type": "text",
+      "id": "banner_alt_text",
+      "label": "Alt Text for Banner",
+      "default": "My Banner"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Custom Banner Section"
+    }
+  ]
+}
 {% endschema %}
