@@ -161,10 +161,17 @@
       "type": "pagefly-home",
       "disabled": true,
       "settings": {}
+    },
+    "banner_section_UMhzBq": {
+      "type": "banner-section",
+      "settings": {
+        "banner_alt_text": "My Banner"
+      }
     }
   },
   "order": [
     "main",
+    "banner_section_UMhzBq",
     "hero_section_dHipPk",
     "product_selling_zLbQpg",
     "warranty_section_NVttFH",
