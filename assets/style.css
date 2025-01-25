@@ -3742,3 +3742,30 @@ img {
 .downloadManual img {
   filter: invert(1);
 }
+
+/* Custom Banner Styling */
+.banner-background {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+    .banner-background {
+        height: 250px; /* Adjust height for smaller devices */
+    }
+}
+
+/* Ensure the entire banner is clickable */
+.banner-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
