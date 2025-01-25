@@ -6,10 +6,10 @@
   {% if section.settings.banner_image %}
     <div class="banner-image">
       <img 
-        src="{{ section.settings.banner_image | img_url: 'xlarge' }}" 
-        alt="{{ section.settings.banner_alt_text | escape }}"
-        style="width: 100%; height: auto;"
-      />
+  src="{{ section.settings.banner_image | img_url: 'master' }}"
+  alt="{{ section.settings.banner_alt_text | escape }}"
+  style="width: 100%; height: auto;"
+/>
     </div>
   {% endif %}
 </section>
