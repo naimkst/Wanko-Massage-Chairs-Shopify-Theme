@@ -5,11 +5,19 @@
 <section id="banner-section-{{ section.id }}" class="banner-section">
   {% if section.settings.banner_image %}
     <div class="banner-image">
+   <section id="banner-section-{{ section.id }}" class="banner-section">
+  {% if section.settings.banner_link != blank %}
+    <a href="{{ section.settings.banner_link }}" target="_blank">
+  {% endif %}
       <img 
-  src="{{ section.settings.banner_image | img_url: 'master' }}"
-  alt="{{ section.settings.banner_alt_text | escape }}"
-  style="width: 100%; height: auto;"
-/>
+        src="{{ section.settings.banner_image | img_url: 'master' }}" 
+        alt="{{ section.settings.banner_alt_text | escape }}"
+        style="width: 100%; height: auto;"
+      />
+  {% if section.settings.banner_link != blank %}
+    </a>
+  {% endif %}
+</section>
     </div>
   {% endif %}
 </section>
@@ -28,9 +36,13 @@
       "id": "banner_alt_text",
       "label": "Alt Text for Banner",
       "default": "My Banner"
+    },
+    {
+      "type": "url",
+      "id": "banner_link",
+      "label": "Banner Link"
     }
   ],
-  "blocks": [],
   "presets": [
     {
       "name": "Custom Banner Section"
