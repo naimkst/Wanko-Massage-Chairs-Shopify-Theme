@@ -2,23 +2,13 @@
   This is a custom banner section for the Wanko-Massage-Chairs-Shopify-Theme/main theme.
 {% endcomment %}
 
-<section id="banner-section-{{ section.id }}" class="banner-section">
-  {% if section.settings.banner_image %}
-    <div class="banner-image">
-   <section id="banner-section-{{ section.id }}" class="banner-section">
+<section 
+  id="banner-section-{{ section.id }}" 
+  class="banner-background"
+  style="background-image: url('{{ section.settings.banner_image | img_url: 'master' }}');"
+>
   {% if section.settings.banner_link != blank %}
-    <a href="{{ section.settings.banner_link }}" target="_blank">
-  {% endif %}
-      <img 
-        src="{{ section.settings.banner_image | img_url: 'master' }}" 
-        alt="{{ section.settings.banner_alt_text | escape }}"
-        style="width: 100%; height: auto;"
-      />
-  {% if section.settings.banner_link != blank %}
-    </a>
-  {% endif %}
-</section>
-    </div>
+    <a href="{{ section.settings.banner_link }}" class="banner-link" target="_blank"></a>
   {% endif %}
 </section>
 
