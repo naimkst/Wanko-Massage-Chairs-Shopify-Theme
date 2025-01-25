@@ -14,6 +14,13 @@
       "disabled": true,
       "settings": {}
     },
+    "banner_section_UMhzBq": {
+      "type": "banner-section",
+      "settings": {
+        "banner_image": "shopify://shop_images/Valentine_s_Day_25_Banner.png",
+        "banner_alt_text": "My Banner"
+      }
+    },
     "hero_section_dHipPk": {
       "type": "hero-section",
       "blocks": {
@@ -53,6 +60,7 @@
         "block_TNCqBr",
         "block_ThL8U6"
       ],
+      "disabled": true,
       "settings": {}
     },
     "product_selling_zLbQpg": {
@@ -161,12 +169,6 @@
       "type": "pagefly-home",
       "disabled": true,
       "settings": {}
-    },
-    "banner_section_UMhzBq": {
-      "type": "banner-section",
-      "settings": {
-        "banner_alt_text": "My Banner"
-      }
     }
   },
   "order": [
