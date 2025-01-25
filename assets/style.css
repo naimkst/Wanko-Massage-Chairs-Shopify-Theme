@@ -3746,17 +3746,18 @@ img {
 /* Custom Banner Styling */
 .banner-background {
     width: 100%;
-    height: 400px; /* Adjust height as needed */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 400px; /* Adjust the height based on design needs */
+    background-size: contain; /* Ensures the whole image fits inside the container */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
     position: relative;
 }
 
 /* Responsive adjustments for mobile screens */
 @media (max-width: 768px) {
     .banner-background {
-        height: 250px; /* Adjust height for smaller devices */
+        height: auto; /* Adjust the height dynamically for smaller screens */
+        padding-top: 50%; /* Aspect ratio for better responsiveness */
     }
 }
 
