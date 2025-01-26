@@ -3754,7 +3754,7 @@ img {
 }
 
 /* Responsive adjustments for mobile screens */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .banner-background {
         height: auto; /* Adjust the height dynamically for smaller screens */
         padding-top: 50%; /* Aspect ratio for better responsiveness */
