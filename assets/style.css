@@ -3747,7 +3747,7 @@ img {
 .banner-background {
     width: 100%;
     height: 400px; /* Adjust the height based on design needs */
-    background-size: contain; /* Ensures the whole image fits inside the container */
+    background-size: cover; /* Ensures the whole image fits inside the container */
     background-position: center center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
     position: relative;
