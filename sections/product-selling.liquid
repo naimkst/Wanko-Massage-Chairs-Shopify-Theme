@@ -25,14 +25,14 @@
                   {{ cart.currency.symbol -}}
                   {% if product.compare_at_price > product.price %}
   <span class="compare-at-price" style="text-decoration: line-through; color: grey;">
-    {{ product.compare_at_price | money-without-currency }}
+    {{ product.compare_at_price | money }}
   </span>
   <span class="sale-price" style="color: red; font-weight: bold;">
-    {{ product.price | money-without-currency }}
+    {{ product.price | money }}
   </span>
 {% else %}
   <span class="regular-price">
-    {{ product.price | money-without-currency }}
+    {{ product.price | money }}
   </span>
 {% endif %}
 
