@@ -3770,3 +3770,21 @@ img {
     top: 0;
     left: 0;
 }
+
+.compare-at-price {
+  text-decoration: line-through;
+  color: grey;
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.sale-price {
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.regular-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
