@@ -60,7 +60,18 @@
           </div>
           <h5 id="price">
             {{ cart.currency.symbol -}}
-            {{- product.price | money_without_currency }}
+            {% if product.compare_at_price > product.price %}
+  <span class="compare-at-price" style="text-decoration: line-through; color: grey;">
+    {{ product.compare_at_price | money }}
+  </span>
+  <span class="sale-price" style="color: red; font-weight: bold;">
+    {{ product.price | money }}
+  </span>
+{% else %}
+  <span class="regular-price">
+    {{ product.price | money }}
+  </span>
+{% endif %}
           </h5>
           {% unless product.has_only_default_variant %}
             <div class="form-group">
