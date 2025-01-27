@@ -23,7 +23,19 @@
                   </h2>
                   <p class="prdPrice">
                     {{ cart.currency.symbol -}}
-                    {{- product.price | money_without_currency }}
+                    {% if product.compare_at_price > product.price %}
+  <span class="compare-at-price" style="text-decoration: line-through; color: grey;">
+    {{ product.compare_at_price | money }}
+  </span>
+  <span class="sale-price" style="color: red; font-weight: bold;">
+    {{ product.price | money }}
+  </span>
+{% else %}
+  <span class="regular-price">
+    {{ product.price | money }}
+  </span>
+{% endif %}
+
                   </p>
 
                   <a
