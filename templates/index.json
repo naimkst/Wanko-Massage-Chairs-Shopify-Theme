@@ -17,8 +17,7 @@
     "banner_section_UMhzBq": {
       "type": "banner-section",
       "settings": {
-        "banner_image": "shopify://shop_images/Valentine_s_Day_25_Banner_1.png",
-        "banner_alt_text": "My Banner",
+        "banner_image": "shopify://shop_images/March_Banner.png",
         "banner_link": "shopify://collections/massage-chairs"
       }
     },
