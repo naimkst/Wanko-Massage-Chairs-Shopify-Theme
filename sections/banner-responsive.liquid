@@ -1,0 +1,79 @@
+{% comment %}
+  Responsive Banner Section for Dawn
+  - Desktop + Mobile image pickers
+  - Optional link
+{% endcomment %}
+
+<section id="banner-section-{{ section.id }}" class="banner-responsive">
+  {% assign desktop_img = section.settings.banner_image %}
+  {% assign mobile_img = section.settings.banner_image_mobile %}
+  {% if mobile_img == blank %}
+    {% assign mobile_img = desktop_img %}
+  {% endif %}
+
+  {% if desktop_img or mobile_img %}
+    {% if section.settings.banner_link != blank %}
+      <a href="{{ section.settings.banner_link }}" class="banner-link" {% if section.settings.open_in_new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}>
+    {% endif %}
+
+      <picture>
+        {% if mobile_img %}
+          <source media="(max-width: 750px)" srcset="{{ mobile_img | image_url: width: 1400 }}">
+        {% endif %}
+        <img
+          src="{{ desktop_img | image_url: width: 2400 }}"
+          alt="{{ section.settings.banner_alt_text | escape }}"
+          class="banner-img"
+          loading="eager"
+          style="display:block;width:100%;height:auto;">
+      </picture>
+
+    {% if section.settings.banner_link != blank %}
+      </a>
+    {% endif %}
+  {% else %}
+    <div style="padding:40px;text-align:center;background:#f5f5f5;border:1px dashed #ddd;">
+      Add images in the section settings →
+    </div>
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "Responsive Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "banner_image",
+      "label": "Desktop Banner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image_mobile",
+      "label": "Mobile Banner Image (optional)"
+    },
+    {
+      "type": "text",
+      "id": "banner_alt_text",
+      "label": "Alt text",
+      "default": "Promotional banner"
+    },
+    {
+      "type": "url",
+      "id": "banner_link",
+      "label": "Link (optional)"
+    },
+    {
+      "type": "checkbox",
+      "id": "open_in_new_tab",
+      "label": "Open link in new tab",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Responsive Banner"
+    }
+  ]
+}
+{% endschema %}
